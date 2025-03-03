@@ -10,8 +10,11 @@ Hi,
 I am Remy.
 
 Not long ago, I was a real estate lawyer. Safe, predictable, linear. <br>
-Then crypto happened. I started trading heavily and successfully. Not linear, emotional rollercoaster. Oh, i took CFA lvl 1 exam, passed on first attempt. <br>
+Then crypto happened. I started trading heavily and successfully. Not linear, emotional rollercoaster. 
+Oh, i took CFA lvl 1 exam, passed on first attempt. <br>
+
 And now… I'm beginning anew (Once more!) <br>
+
 Diving headfirst into Computer Science with a single, clear objective: **To excel in programming and create amazing things.**
 
 ### Why?
