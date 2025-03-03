@@ -10,7 +10,7 @@ Hi,
 I am Remy.
 
 Not long ago, I was a real estate lawyer. Safe, predictable, linear. <br>
-Then crypto happened. I started trading heavily and successfully. Not linear, emotional rollercoaster. <br>
+Then crypto happened. I started trading heavily and successfully. Not linear, emotional rollercoaster. Oh, i took CFA lvl 1 exam, passed on first attempt. <br>
 And now… I'm beginning anew (Once more!) <br>
 Diving headfirst into Computer Science with a single, clear objective: **To excel in programming and create amazing things.**
 
@@ -33,9 +33,7 @@ Next steps =
 - CS Mastery
 - Machine Learning, Deep Learning and Reinforcement learning to automate my systems and increase perf'
 
-For context, I hold a Juris Doctor, and passed CFA level 1 on first attempt, almost 90th percentile.
-Law and finance are covered.
-Now it's time to master CS & code.
+
 
 ### Let's Connect
 I'm always open to discussing technology, trading strategies, or potential collaborations. You can find me on:
