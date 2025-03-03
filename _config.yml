@@ -5,9 +5,12 @@ description: "Self-taught CS explorer sharing my journey through algorithms, sys
 
 # Social links
 social_links:
-  twitter: SolTae_
-  github: Rae699
-  linkedin: https://www.linkedin.com/in/remy-charras/ 
+  - name: "Twitter"
+    url: "https://twitter.com/SolTae_"
+  - name: "GitHub"
+    url: "https://github.com/Rae699"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/remy-charras/" 
 
 
 # Theme settings
