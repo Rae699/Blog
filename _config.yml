@@ -3,17 +3,15 @@ baseurl: "/Blog"
 title: "Remy C."
 description: "Self-taught CS explorer sharing my journey through algorithms, systems, and code. Building knowledge brick by brick and documenting the ride."
 
-# Site Author information
-author:
-  name: Remy
-  bio: "From Law to Trading to Computer Science - Building my future one line of code at a time"
+# Social links
+social_links:
+  twitter: SolTae_
+  github: Rae699
+  linkedin: https://www.linkedin.com/in/remy-charras/ 
+
 
 # Theme settings
 minima:
   show_excerpts: true
-  # Social links
-  social_links:
-    twitter: SolTae_
-    github: Rae699
-    linkedin: https://www.linkedin.com/in/remy-charras/ 
+
 
