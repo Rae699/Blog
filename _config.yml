@@ -15,11 +15,5 @@ minima:
   social_links:
     twitter: SolTae_
     github: Rae699
-    # Add your LinkedIn if you'd like
     linkedin: https://www.linkedin.com/in/remy-charras/ 
 
-# Additional settings
-timezone: Europe/Paris  # Adjust this to your timezone
-google_analytics: # UA-XXXXXXXX-X  # If you want to add analytics
-show_downloads: false
-future: false  # Don't show posts dated in the future
