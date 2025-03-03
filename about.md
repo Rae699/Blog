@@ -15,7 +15,7 @@ And now… I'm beginning anew (Once more!) <br>
 Diving headfirst into Computer Science with a single, clear objective: **To excel in programming and create amazing things.**
 
 ### Why?
-AI will set a baseline for coding skills, making critical thinking and mastery of fundamentals the key differentiators.
+AI will set a baseline for coding skills, making **critical thinking** and **mastery of fundamentals** the key differentiators.
 
 This blog is where I document the journey — from zero to creating powerful, AI-driven trading systems, tools and more.
 
@@ -43,3 +43,6 @@ I'm always open to discussing technology, trading strategies, or potential colla
 - 🔨 [GitHub](https://github.com/Rae699) - Check out my projects (some are private to protect the strategies!)
 
 Feel free to reach out through any of these platforms. I'm particularly interested in connecting with others who are passionate about the intersection of trading, technology, and AI.
+
+---
+_Last updated: March, 3rd 2025_
