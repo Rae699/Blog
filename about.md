@@ -9,12 +9,12 @@ Hi,
 
 I am Remy.
 
-Not long ago, I was a real estate lawyer. Safe, predictable, linear. 
-Then crypto happened. I started trading heavily and successfully. Not linear, emotional rollercoaster. 
-And now…
-I’m beginning anew (Once more!)
+Not long ago, I was a real estate lawyer. Safe, predictable, linear. <br>
+Then crypto happened. I started trading heavily and successfully. Not linear, emotional rollercoaster. <br>
+And now… I'm beginning anew (Once more!) <br>
 Diving headfirst into Computer Science with a single, clear objective: **To excel in programming and create amazing things.**
 
+### Why?
 AI will set a baseline for coding skills, making critical thinking and mastery of fundamentals the key differentiators.
 
 This blog is where I document the journey — from zero to creating powerful, AI-driven trading systems, tools and more.
@@ -37,4 +37,11 @@ For context, I hold a Juris Doctor, and passed CFA level 1 on first attempt, alm
 Law and finance are covered.
 Now it's time to master CS & code.
 
-🔗 [GitHub Profile](https://github.com/Rae699)
+### Let's Connect
+I'm always open to discussing technology, trading strategies, or potential collaborations. You can find me on:
+
+- 🐦 [Twitter](https://twitter.com/SolTae_) - Follow my trading and coding journey
+- 💼 [LinkedIn](https://www.linkedin.com/in/remy-charras/) - Professional network
+- 🔨 [GitHub](https://github.com/Rae699) - Check out my projects (some are private to protect the strategies!)
+
+Feel free to reach out through any of these platforms. I'm particularly interested in connecting with others who are passionate about the intersection of trading, technology, and AI.
