@@ -15,6 +15,6 @@ social_links:
 
 # Theme settings
 minima:
-  show_excerpts: true
+  show_excerpts: false
 
 
