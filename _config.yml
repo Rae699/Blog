@@ -2,8 +2,24 @@ theme: minima
 baseurl: "/Blog"
 title: "Rae's Blog"
 description: "Self-taught CS explorer sharing my journey through algorithms, systems, and code. Building knowledge brick by brick and documenting the ride."
+
+# Site Author information
+author:
+  name: Remy
+  bio: "From Law to Trading to Computer Science - Building my future one line of code at a time"
+
+# Theme settings
 minima:
   show_excerpts: true
+  # Social links
   social_links:
     twitter: SolTae_
     github: Rae699
+    # Add your LinkedIn if you'd like
+    linkedin: https://www.linkedin.com/in/remy-charras/ 
+
+# Additional settings
+timezone: Europe/Paris  # Adjust this to your timezone
+google_analytics: # UA-XXXXXXXX-X  # If you want to add analytics
+show_downloads: false
+future: false  # Don't show posts dated in the future

@@ -5,6 +5,9 @@ permalink: /about/
 ---
 
 # About Me
+Hi,
+
+I am Remy.
 
 I used to be a real estate lawyer. Then I went full-time into trading. Now, I'm going all-in on Computer Science with one clear goal: **To become great at programming and build wonderful things.**
 
@@ -18,8 +21,11 @@ This blog is where I document the journey — from zero to creating powerful, AI
 - **Creative coding projects** (because why not?)
 
 ### Projects I'm building:
-- **Dots** — a rock-solid trading system foundation  
+- **Dots** — a rock-solid trading system foundation for signals detection, trading execution. 
 - **Sentinelle** — AI-powered market analysis and signal generation  
+Next steps =
+- CS Mastery
+- Machine Learning, Deep Learning and Reinforcement learning to automate my systems and increase perf'
 
 For context, I hold a Juris Doctor, and passed CFA level 1 on first attempt, almost 90th percentile.
 Law and finance are covered.
