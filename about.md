@@ -9,7 +9,13 @@ Hi,
 
 I am Remy.
 
-I used to be a real estate lawyer. Then I went full-time into trading. Now, I'm going all-in on Computer Science with one clear goal: **To become great at programming and build wonderful things.**
+Not long ago, I was a real estate lawyer. Safe, predictable, linear. 
+Then crypto happened. I started trading heavily and successfully. Not linear, emotional rollercoaster. 
+And now…
+I’m beginning anew (Once more!)
+Diving headfirst into Computer Science with a single, clear objective: **To excel in programming and create amazing things.**
+
+AI will set a baseline for coding skills, making critical thinking and mastery of fundamentals the key differentiators.
 
 This blog is where I document the journey — from zero to creating powerful, AI-driven trading systems, tools and more.
 
