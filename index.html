@@ -19,5 +19,12 @@
 <body>
     <h1>From Law to CS</h1>
     <p>Hi, I’m Remy — former real estate lawyer turned full-time trader, now diving deep into Computer Science and Python from scratch. Follow my journey →</a></p>
+    <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
+          </li>
+        {% endfor %}
+      </ul>
 </body>
 </html>
