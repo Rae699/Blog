@@ -6,10 +6,9 @@ permalink: /about/
 
 # About Me
 
-I used to be a real estate lawyer. Then I went full-time into trading. Now, I'm going all-in on Computer Science with one clear goal:  
-**become a beast at programming and build wonderful things.**
+I used to be a real estate lawyer. Then I went full-time into trading. Now, I'm going all-in on Computer Science with one clear goal: **To become great at programming and build wonderful things.**
 
-This blog is where I document the journey — from zero to creating powerful, AI-driven trading systems and tools.
+This blog is where I document the journey — from zero to creating powerful, AI-driven trading systems, tools and more.
 
 ### What I'm focused on:
 - **Computer Science fundamentals** (the real stuff)
