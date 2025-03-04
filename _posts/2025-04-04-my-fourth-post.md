@@ -129,6 +129,6 @@ Remember what Howard Marks emphasizes: Markets don't care about our opinions. Th
 <br>
 
 _Follow my journey:_
-- [Trading Systems Progress](/Blog/2025/03/03/my-first-post.html)
-- [CS Learning Path](/Blog/2025/03/03/my-second-post.html)
-- [Weekly Updates](/Blog/2025/03/10/my-third-post.html)
+- [Trading Systems Progress]({% post_url 2025-03-03-my-first-post %})
+- [CS Learning Path]({% post_url 2025-03-03-my-second-post %})
+- [Weekly Updates]({% post_url 2025-03-10-my-third-post %})

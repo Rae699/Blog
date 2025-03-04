@@ -30,13 +30,11 @@ This blog is where I document the journey — from zero to creating powerful, AI
 - **Creative coding projects** (because why not?)
 
 ### Projects I'm building:
-- **Dots** — a rock-solid trading system foundation for signals detection, trading execution. 
-- **Sentinelle** — AI-powered market analysis and signal generation  
+- [**Dots**](https://github.com/Rae699/Dots) — a rock-solid trading system foundation for signals detection, trading execution. 
+- [**Sentinelle**](https://github.com/SentiCap/SentinelleCap) — AI-powered market analysis and signal generation  
 Next steps =
 - CS Mastery
 - Machine Learning, Deep Learning and Reinforcement learning to automate my systems and increase perf'
-
-
 
 ### Let's Connect
 I'm always open to discussing technology, trading strategies, or potential collaborations. You can find me on:
