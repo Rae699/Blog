@@ -12,156 +12,185 @@ comments: false
 
 ## Week 1 — From Zero to CS  
 
-Not long ago, I was a **real estate lawyer**. Safe, predictable, linear. Then crypto happened. Then trading. And now... this.  
+Not long ago, I was a **real estate lawyer**. Safe, predictable, linear.  
+Then crypto happened. Then trading. And now... this.  
 
-I'm starting from scratch. (Again) 
+I'm starting from scratch. (Again.)  
 
-Sure, I've been trading crypto for years, but when it comes to real computer science? I'm a total beginner. 
+Sure, I've been trading crypto for years, but when it comes to real computer science? I'm a total beginner.  
 
-Coding? No, vibe-coding.
-Python? Barely holding-on without AI assistance.
+Coding? More like **vibe-coding with AI**.  
+Python? Barely holding on without assistance.  
 
-I'm working through the early tracks on Exercism, realizing how much I don't know, and honestly… it's humbling.  
+And yet… over the last 2 months, I've pushed over **27,800 lines of code** across my trading systems.  
+But let’s be honest—anyone can stack lines of code with an AI copilot. The real challenge now is transforming that raw output into true **critical thinking**, **architecture**, and **system design**.  
 
-I've made the decision: I want to build real things. I want to stop being just "technical enough" to scrape by. I want to close the gap between someone hacking scripts together and someone who truly *understands* the systems they're building on.  
+Because I don’t just want to build things that work.  
+I want to understand why they work, how they scale, and what breaks them.  
+I’m done being "technical enough" to scrape by.  
 
 And the only way is through.  
 
 ---
 
+## How It Started  
 
-### How It Started  
+It all began with my first trading system automation.  
 
-Everything kicked off with my trading system automation.  
+In December 2024, I cobbled together a 2,500-line, AI-fueled monster of scripts.  
+It was messy. But it worked.  
+I built my first **screeners** to automate my trading strategies, and when those signals started firing… man, it felt like magic.  
 
-In December 2024, I cobbled together my first big set of scripts—a messy, 2,500-line vibe-coded monster that somehow… worked. It was my first attempt at building **screeners** and automating parts of my strategy. And when it ran, seeing the signals come through, watching the system process the data... I felt that spark. 
+But the high didn’t last long.  
 
-Real satisfaction.  
+I realized immediately:  
+- This was duct tape.  
+- This wasn’t scalable.  
+- I didn’t actually understand the code beneath the surface.  
 
-You can check out a glimpse of that work on my [Dots GitHub](https://github.com/Rae699/Dots) (though some parts or the whole repo might stay private—black box strategies and all).  
+If I wanted to build something real—plug in new strategies, add exchange integrations, build robust pipelines, and eventually merge it with **Sentinelle**, my collaborative project with Jun, Sylvain, and Emile—I needed to go back to the foundations.  
 
-But as soon as I finished, I knew duct tape wasn't enough.  
-
-I needed structure.  
-
-If I really wanted to scale it—plug in new strategies, add exchange integrations, build robust pipelines, or even merge it with **Sentinelle**, my side project with Jun, Sylvain, and Emile—I couldn't keep piling features on top of spaghetti code.  
-
-That's when I realized:  
-- I needed to learn how to build proper systems.  
-- I needed Computer Science.  
+I needed Computer Science.  
 
 ---
 
+## What I(-AI) have Achieved (So Far)
 
-### Where I Am  
+It’s been about **two months**. Here's what that looks like:
+
+- ✅ **27,887 lines of code written**  
+- ✅ **401 hours of tracked work**  
+- ✅ First working version of my trading system live  
+- ✅ Automating real strategies end-to-end  
+
+But enough talk.  
+
+Here’s a quick walkthrough of the system running:  
+
+<div align="center">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KZRrCbHVvrU?autoplay=1&playsinline=1&mute=1&start=0&loop=1&playlist=KZRrCbHVvrU" title="Trading System Demo" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+> ⚠️ **Tip:** Watch at **2x speed** as it is just a proof-of-work.  
+
+---
+
+### 📊 Proof of Work
+But...
+This is more than just writing code.  
+I'm dedicating significant hours, tackling real-world challenges, and meticulously tracking every moment of my journey.
+How?
+By leveraging AI, iterating through numerous trials and errors until success is achieved.
+
+While I may not fully grasp the intricate workings beneath the surface yet, I am committed to continuous learning and improvement.
+AI provides guidance, but I am determined to enhance my own critical thinking and problem-solving skills.
+
+The journey has just begun, and my potential is limitless.
+
+---
+
+#### 🚀 **Total Lines of Code: 27,887**
+<div align="center">
+  <img src="/assets/git-fame-27887.png" alt="Git Fame 27,887 LOC" width="600">
+</div>
+
+---
+
+#### ⏳ **401 Hours of Coding Time in 2 months**  
+Tracked with **WakaTime**:  
+
+<div align="center">
+  <img src="/assets/wakatime-dashboard.png" alt="WakaTime Dashboard" width="800">
+</div>
+
+---
+
+## Where I Am  
 
 Right now?  
 - Learning Python basics through **Exercism**.  
-- Struggling, in the best way.  
+- Struggling (in the best way).  
+- Catching my own mistakes instead of just pasting AI fixes.  
 - Slowly getting comfortable with problems that once felt impossible.  
 
 I'm not here to fake expertise. I'm here to document the real thing: the messy, slow climb from beginner to builder.  
 
 ---
 
-
-### Where I'm Going  
+## Where I'm Going  
 
 I'm taking a **"classics first"** approach, knowing it might take years—but also knowing these are the foundations that last:  
 
 - **Structure and Interpretation of Computer Programs (SICP)**  
-  _(because it seems everyone I respect has read it twice)_  
-
 - **Computer Systems: A Programmer's Perspective (CS:APP)**  
-  _(to finally understand what's happening under the hood)_  
-
 - **The Algorithm Design Manual**  
-  _(so I can start Leetcode!)_  
-
 - **Designing Data-Intensive Applications**  
-  _(for scalable, reliable architectures)_  
-
 - **Computer Networking: A Top-Down Approach**  
-
 - **Operating Systems: Three Easy Pieces**  
-
 - **C Programming: A Modern Approach**  
-  _(because Python without understanding C is like playing jazz without scales)_
-
 - **Fluent Python**  
-  _(to finally feel at home in the language)_  
 
-And after that? More **LeetCode**, and a path to AI with **ML books**, and my **own projects** to lock it all in.  
+And after that? More **LeetCode**, more AI, and my own projects to lock it all in.  
 
-For AI? Andrew NG courses,
+For AI? Starting with Andrew Ng’s courses, then leveling up with:
 
 ---
 
+## My Ultimate Goal: AI-Powered Trading  
 
-### My Ultimate Goal: AI-Powered Trading
+Beyond the CS foundations, I have a clear endgame:  
+Building a fully automated trading system powered by advanced AI.  
 
-Beyond the CS foundations, I have a clear endgame: building a complete automated trading system powered by advanced AI. Not just scripts, but a sophisticated system that can:
+Not just scripts.  
+A full-scale, adaptive system that can:  
 
-- Implement my trading strategies with precision
-- Optimize execution using Machine Learning
-- Adapt to market conditions through Reinforcement Learning
-- Identify patterns using Deep Learning
+- Execute strategies with precision  
+- Optimize with Machine Learning  
+- Adapt with Reinforcement Learning  
+- Identify patterns with Deep Learning  
 
-To get there, I'm adding these foundational AI texts to my reading list:
+### The reading list for that:  
 
 1. **Artificial Intelligence: A Modern Approach** (Russell & Norvig)  
-   _(The AI bible—covering everything from search algorithms to reinforcement learning)_
-
 2. **Pattern Recognition and Machine Learning** (Bishop)  
-   _(For the mathematical foundations of ML—probability, statistics, and core algorithms)_
-
 3. **Deep Learning** (Goodfellow, Bengio & Courville)  
-   _(The comprehensive guide to neural networks and modern deep learning)_
 
-But theory isn't enough. I'm pairing these with practical resources:
+And hands-on practice through:  
 
 - **Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow** (Géron)  
-  _(To start building real models)_
-
 - **Deep Learning with Python** (Chollet)  
-  _(For mastering Keras/TensorFlow implementation)_
-
 - **Deep Learning for Coders with Fastai & PyTorch** (Howard & Gugger)  
-  _(Alternative PyTorch path if needed)_
 
-The goal isn't just to understand these tools—it's to apply them effectively to trading. I want to build systems that can:
-- Detect market regimes based on my already coded strategies
-- Optimize entry/exit points using ML/RL
-- Manage risk dynamically
-- Identify complex patterns across multiple timeframes
-
-It's ambitious. Maybe too ambitious. 
-But that's the point.
+The goal is simple:  
+Take my current strategies and unlock their next level using AI to manage risk, detect market regimes, and optimize execution.
 
 ---
 
+## Now Working On  
 
-### Now Working On  
+- [Dots](https://github.com/your-dots-repo) — signal screeners, trading tools (some parts private).  
+  → Current goal: finalize 5 screeners, trace and refactor the code, remove redundancies, and optimize after reinforcing my DSA skills.  
 
-- [Dots](https://github.com/your-dots-repo) — signal screeners, trading tools (some parts may remain private for obvious reasons, these are proven working strategies).  
-=> My current goal is to finalize the 5 screeners, then start tracing the code properly. Remove redundancies. Then, start refactoring with proper optimization once i have sufficient DSA knowledge.
-- [Sentinelle](https://github.com/SentiCap/SentinelleCap) — a collaborative trading infrastructure project with Jun, Sylvain, and Emile, all investment-bankers.
+- [Sentinelle](https://github.com/SentiCap/SentinelleCap) — a collaborative trading infrastructure with Jun, Sylvain, and Emile (ex-investment bankers).  
 
 ---
 
-### How I'm Getting There  
+## How I'm Getting There  
 
-- **8 hours every day**, no matter what.  
-- Exercism, LeetCode, reading, coding for my own projects?
+- **8 hours every day**, no exceptions.  
+- Exercism, LeetCode, reading, coding, repeat.  
 - Tracking everything. Wins, failures, breakthroughs.  
-- Staying patient. 
+- Staying patient.  
 
-This isn't a bootcamp. This is my new normal.  
+This isn’t a bootcamp.  
+This is the new normal.  
 
 ---
 
-This blog is how I'll keep myself accountable.  
+This blog is how I'll stay accountable.  
 
-And maybe one day, I'll look back at this first post and barely recognize the person who wrote it.  
+And maybe one day, I’ll look back at this first post and barely recognize the person who wrote it.  
 
-For now, I'm just getting started.  
+For now, I’m just getting started.
