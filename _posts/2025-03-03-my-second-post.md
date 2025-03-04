@@ -7,7 +7,6 @@ author: Remy
 description: "The structured 2-year plan to go from beginner to systems builder, with a focus on CS fundamentals, trading systems, and AI."
 comments: false
 ---
-<br>
 
 # 🛠️ The Plan: 24 Months to Mastery
 
@@ -17,7 +16,6 @@ Over the next **24 months**, I'll be following a structured plan combining class
 This journey is meticulously planned to ensure a structured and comprehensive path to mastery. It's a personal roadmap designed to keep me organized and focused on my goals.
 
 ---
-<br>
 
 ## ⏳ Timeline — 24-Month Roadmap
 
@@ -33,7 +31,6 @@ This journey is meticulously planned to ensure a structured and comprehensive pa
 | **Months 22–24** |Final project delivery. Enjoy life changing skills |
 
 ---
-<br>
 
 ## 📚 Core CS Curriculum
 
@@ -49,7 +46,6 @@ I'm following a **"classics-first"** approach, built around these foundational t
 - **Fluent Python**
 
 ---
-<br>
 
 ## 🤖 AI Track (For Advanced Trading Systems)
 
@@ -63,7 +59,6 @@ In parallel, I'll tackle AI and machine learning to build adaptive, intelligent 
 - **Deep Learning for Coders with fastai & PyTorch** (Howard & Gugger)
 
 ---
-<br>
 
 ## 🏗️ Daily Routine (The Dots Discipline)
 
@@ -78,7 +73,6 @@ Every day, without fail:
 - 📊 DOTS Trading system development & refactoring
 
 ---
-<br>
 
 ## ⚙️ Current Projects
 
@@ -95,13 +89,11 @@ A modular trading suite for signal generation and strategy automation. From scra
 - Full code optimization using new DSA knowledge.
 
 ---
-<br>
 
 ### [Sentinelle](https://github.com/SentiCap/SentinelleCap)
 A collaborative trading infrastructure with modular, plug-and-play strategies.
 
 ---
-<br>
 
 ## 🎯 Meta Goals
 
@@ -112,7 +104,6 @@ A collaborative trading infrastructure with modular, plug-and-play strategies.
 - ✅ Track wins, blockers, breakthroughs.
 
 ---
-<br>
 
 ## 📌 Why This Exists
 
@@ -128,11 +119,9 @@ Follow along, fork the repo, or reach out.
 Let's build.
 
 ---
-<br>
 
-## 🔗 Links
+## �� Links
 - 🐙 GitHub: [https://github.com/Rae699](https://github.com/Rae699)
 - 📊 Projects: [Dots](https://github.com/Rae699/Dots) | [Sentinelle](https://github.com/SentiCap/SentinelleCap)
 
 ---
-<br>

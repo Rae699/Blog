@@ -8,7 +8,6 @@ description: "From real estate lawyer to AI-powered trading systems—my journey
 github: https://github.com/Rae699
 comments: false
 ---
-<br>
 
 ## Week 1 — From Zero to CS  
 
@@ -32,6 +31,11 @@ I'm done being "technical enough" to scrape by.
 And the only way is through.  
 
 ---
+
+<div class="warning-box">
+<p><strong>Disclaimer:</strong> This is a journey in progress. All code and projects mentioned are part of my learning process.</p>
+</div>
+
 <br>
 
 ## How It Started  

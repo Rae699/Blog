@@ -7,7 +7,6 @@ author: Remy
 description: "While grinding CS, I'm navigating market turbulence. Here's my analysis of current market conditions and how I'm maintaining my edge."  
 comments: false  
 ---
-<br>
 
 # Trading Through the Storm: Market Analysis & My Edge
 
@@ -74,12 +73,6 @@ And right now, valuations aren't reflecting that risk. I'm personally not bettin
 
 ## The Dollar Devaluation Thesis
 
-Where do we go from here? Here's the scenario I'm preparing for:
-
-1. Bear market phase  
-2. Aggressive dollar devaluation to manage debt  
-3. Rotation into hard assets (commodities, gold, Bitcoin)  
-
 This isn't theoretical.  
 As Howard Marks wrote in his latest [Oaktree memo, *On Bubble Watch*](https://www.oaktreecapital.com/insights/memo-podcast/behind-the-memo-on-bubble-watch):
 
@@ -87,9 +80,15 @@ As Howard Marks wrote in his latest [Oaktree memo, *On Bubble Watch*](https://ww
 
 Put simply: the risk/reward here is getting skewed.
 
+Where do we go from here? Here's the scenario I'm preparing for:
+
+1. Bear market phase 
+2. Aggressive dollar devaluation to manage debt 
+3. Rotation into hard assets (commodities, gold, Bitcoin)  
+
 <br>
 
-### How I'm Positioned
+## How I'm Positioned
 
 I'm not trying to predict the exact top. I'm not calling the crash.  
 I'm just listening to what the market is telling me and adapting.
@@ -100,6 +99,14 @@ Here's my current stance:
 
 It's a defensive posture. I'd rather protect capital than chase gains in a late-stage move.  
 Risk management over hero trades, always.
+
+<br>
+
+## My Edge Right Now
+
+1. **Technology**: I'm building better tools than I've ever had.  
+2. **Systematic Process**: No room for emotions—just execution.  
+3. **Dual Focus**: CS and trading feeding each other, compounding skill.  
 
 <br>
 
@@ -120,38 +127,32 @@ The long-term vision? Fully automated, adaptive strategies that allow me to focu
 
 The next 6-12 months feel like a crossroads.  
 
-Markets don't care about opinions.
-They care about flows, positioning, and psychology.
+Markets don't care about opinions.  
+They care about flows, positioning, and psychology.  
 
 While I'm working through SICP and grinding LeetCode, I'm also monitoring:
 
 <div class="analysis-section">
-</h3>Key Indicators</h3>
+<h3>Key Indicators</h3>
+<ul>
 - Dollar strength trends (DXY and major forex pairs)
 - Hard asset price action (gold + BTC)
 - Market structure shifts (slowly ongoing)
 - Systemic risk markers
 - Retail sentiment (no fear, "up only")
+</ul>
 </div>
 
 <div class="warning-box">
-</h3>Key risk to watch:</h3>
+<h3>Key risk to watch:</h3>
 <blockquote>
 _"The multiple correction is compressed into a year or two, implying a big decline in stock prices such as we saw in 1973-74 and 2000-02."_ — Howard Marks
 </blockquote>
+
+<p>Stay systematic. Stay humble. Stay ready.</p>
 </div>
 
-<br>
-
-## My Edge Right Now
-
-1. **Technology**: I'm building better tools than I've ever had.  
-2. **Systematic Process**: No room for emotions—just execution.  
-3. **Dual Focus**: CS and trading feeding each other, compounding skill.  
-
-
 ---
-<br>
 
 <div class="warning-box">
 <p><strong>Disclaimer:</strong> This post reflects my personal views and analysis. Always do your own research. Nothing here is financial advice. I'm sharing my journey to learn, improve, and build alongside you.</p>
@@ -159,8 +160,7 @@ _"The multiple correction is compressed into a year or two, implying a big decli
 
 <br>
 
-
 _Follow my journey:_  
 - [Trading Systems Progress]({{ site.baseurl }}{% post_url 2025-03-03-my-first-post %})  
 - [CS Learning Path]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})  
-- [Weekly Updates]({{ site.baseurl }}{% post_url 2025-03-10-my-third-post %})  
+- [Weekly Updates]({{ site.baseurl }}{% post_url 2025-03-10-my-third-post %})
