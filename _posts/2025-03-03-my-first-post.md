@@ -23,11 +23,11 @@ Coding? More like **vibe-coding with AI**.
 Python? Barely holding on without assistance.  
 
 And yet… over the last 2 months, I've pushed over **27,800 lines of code** across my trading systems.  
-But let’s be honest—anyone can stack lines of code with an AI copilot. The real challenge now is transforming that raw output into true **critical thinking**, **architecture**, and **system design**.  
+But let's be honest—anyone can stack lines of code with an AI copilot. The real challenge now is transforming that raw output into true **critical thinking**, **architecture**, and **system design**.  
 
-Because I don’t just want to build things that work.  
+Because I don't just want to build things that work.  
 I want to understand why they work, how they scale, and what breaks them.  
-I’m done being "technical enough" to scrape by.  
+I'm done being "technical enough" to scrape by.  
 
 And the only way is through.  
 
@@ -41,12 +41,12 @@ In December 2024, I cobbled together a 2,500-line, AI-fueled monster of scripts.
 It was messy. But it worked.  
 I built my first **screeners** to automate my trading strategies, and when those signals started firing… man, it felt like magic.  
 
-But the high didn’t last long.  
+But the high didn't last long.  
 
 I realized immediately:  
 - This was duct tape.  
-- This wasn’t scalable.  
-- I didn’t actually understand the code beneath the surface.  
+- This wasn't scalable.  
+- I didn't actually understand the code beneath the surface.  
 
 If I wanted to build something real—plug in new strategies, add exchange integrations, build robust pipelines, and eventually merge it with **Sentinelle**, my collaborative project with Jun, Sylvain, and Emile—I needed to go back to the foundations.  
 
@@ -56,7 +56,7 @@ I needed Computer Science.
 
 ## What I(-AI) have Achieved (So Far)
 
-It’s been about **two months**. Here's what that looks like:
+It's been about **two months**. Here's what that looks like:
 
 - ✅ **27,887 lines of code written**  
 - ✅ **401 hours of tracked work**  
@@ -65,7 +65,7 @@ It’s been about **two months**. Here's what that looks like:
 
 But enough talk.  
 
-Here’s a quick walkthrough of the system running:  
+Here's a quick walkthrough of the system running:  
 
 <div align="center">
 
@@ -93,7 +93,7 @@ The journey has just begun, and my potential is limitless.
 
 #### 🚀 **Total Lines of Code: 27,887**
 <div align="center">
-  <img src="/assets/git-fame-27887.png" alt="Git Fame 27,887 LOC" width="600">
+  <img src="{{ site.baseurl }}/assets/git-fame-27887.png" alt="Git Fame 27,887 LOC" width="600">
 </div>
 
 ---
@@ -102,20 +102,21 @@ The journey has just begun, and my potential is limitless.
 Tracked with **WakaTime**:  
 
 <div align="center">
-  <img src="/assets/wakatime-dashboard.png" alt="WakaTime Dashboard" width="800">
+  <img src="{{ site.baseurl }}/assets/wakatime-dashboard.png" alt="WakaTime Dashboard" width="800">
 </div>
 
 ---
 
-## Where I Am  
+## Where I (really) Am  
 
-Right now?  
+Without AI copilot, right now?  
 - Learning Python basics through **Exercism**.  
+- Very low critical thinking.
 - Struggling (in the best way).  
 - Catching my own mistakes instead of just pasting AI fixes.  
 - Slowly getting comfortable with problems that once felt impossible.  
 
-I'm not here to fake expertise. I'm here to document the real thing: the messy, slow climb from beginner to builder.  
+I'm not here to fake expertise. I'm here to document the real thing: the messy, slow climb from beginner to pro-builder.  
 
 ---
 
@@ -134,7 +135,7 @@ I'm taking a **"classics first"** approach, knowing it might take years—but al
 
 And after that? More **LeetCode**, more AI, and my own projects to lock it all in.  
 
-For AI? Starting with Andrew Ng’s courses, then leveling up with:
+For AI? Starting with Andrew Ng's courses, then leveling up with:
 
 ---
 
@@ -184,13 +185,13 @@ Take my current strategies and unlock their next level using AI to manage risk, 
 - Tracking everything. Wins, failures, breakthroughs.  
 - Staying patient.  
 
-This isn’t a bootcamp.  
+This isn't a bootcamp.  
 This is the new normal.  
 
 ---
 
 This blog is how I'll stay accountable.  
 
-And maybe one day, I’ll look back at this first post and barely recognize the person who wrote it.  
+And maybe one day, I'll look back at this first post and barely recognize the person who wrote it.  
 
-For now, I’m just getting started.
+For now, I'm just getting started.
