@@ -132,12 +132,19 @@ The next 6-12 months feel like a crossroads.
 While I'm working through SICP and grinding LeetCode, I'm also monitoring:
 
 <div class="analysis-section">
-<h3>Key Indicators</h3>
-- Dollar strength trends  
-- Hard asset price action  
-- Market structure shifts  
-- Systemic risk markers 
-- Retail sentiment 
+<p>Key Indicators</p>
+- Dollar strength trends  (dxy and major forex pairs)
+- Hard asset price action  (gold + btc)
+- Market structure shifts (slowly ongoing) 
+- Retail sentiment (no fear, "up only")
+</div>
+
+<div class="warning-box">
+<p>Key risk to watch:<br>
+As Marks warns, _"the multiple correction is compressed into a year or two, implying a big decline in stock prices such as we saw in 1973-74 and 2000-02."_</p>
+<p>Markets don't care about opinions.<br>
+They care about flows, positioning, and psychology.<br>
+Stay systematic. Stay humble. Stay ready.</p>
 </div>
 
 <br>
@@ -158,16 +165,6 @@ While I'm working through SICP and grinding LeetCode, I'm also monitoring:
 
 <br>
 
-<div class="warning-box">
-<p>Key risk to watch:<br>
-As Marks warns, _"the multiple correction is compressed into a year or two, implying a big decline in stock prices such as we saw in 1973-74 and 2000-02."_</p>
-
-<p>Markets don't care about opinions.<br>
-They care about flows, positioning, and psychology.<br>
-Stay systematic. Stay humble. Stay ready.</p>
-</div>
-
-<br>
 
 _Follow my journey:_  
 - [Trading Systems Progress]({{ site.baseurl }}{% post_url 2025-03-03-my-first-post %})  

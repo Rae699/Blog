@@ -99,6 +99,7 @@ The journey has just begun, and my potential is limitless.
 <div align="center">
   <img src="{{ site.baseurl }}/assets/git-fame-27887.png" alt="Git Fame 27,887 LOC" width="600">
 </div>
+<br>
 
 ---
 <br>
