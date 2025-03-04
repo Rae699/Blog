@@ -4,17 +4,24 @@ baseurl: "/Blog"
 description: "Self-taught CS explorer sharing my journey through algorithms, systems, and code. Building knowledge brick by brick and documenting the ride. Currently grinding in hard mode."
 
 # Social links
-social_links:
-  - name: "Twitter"
-    url: "https://twitter.com/SolTae_"
-  - name: "GitHub"
-    url: "https://github.com/Rae699"
-  - name: "LinkedIn"
-    url: "https://www.linkedin.com/in/remy-charras/" 
-
+twitter_username: SolTae_
+github_username: Rae699
+linkedin_username: remy-charras
 
 # Theme settings
 minima:
-  show_excerpts: false
+  date_format: "%b %-d, %Y"
+  show_excerpts: true
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Header pages
+header_pages:
+  - start-here.md
+  - about.md
 
 
