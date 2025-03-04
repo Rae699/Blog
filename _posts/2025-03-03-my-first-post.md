@@ -8,8 +8,11 @@ description: "From real estate lawyer to AI-powered trading systems—my journey
 github: https://github.com/Rae699
 comments: false
 ---
+<br>
 
+<br>
 ## Week 1 — From Zero to CS  
+<br>
 
 Not long ago, I was a **real estate lawyer**. Safe, predictable, linear.  
 Then crypto happened. Then trading. And now... this.  
@@ -32,13 +35,17 @@ And the only way is through.
 
 ---
 
+<br>
 <div class="warning-box">
 <p><strong>Disclaimer:</strong> This is a journey in progress. All code and projects mentioned are part of my learning process.</p>
 </div>
+<br>
 
 <br>
 
+<br>
 ## How It Started  
+<br>
 
 It all began with my first trading system automation.  
 
@@ -59,8 +66,11 @@ I needed Computer Science.
 
 ---
 <br>
+<br>
 
+<br>
 ## What I(-AI) have Achieved (So Far)
+<br>
 
 It's been about **two months**. Here's what that looks like:
 
@@ -73,18 +83,22 @@ But enough talk.
 
 Here's a quick walkthrough of the system running:  
 
+<br>
 <div align="center">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KZRrCbHVvrU?autoplay=1&playsinline=1&mute=1&start=0&loop=1&playlist=KZRrCbHVvrU" title="Trading System Demo" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
 </div>
+<br>
 
 > ⚠️ **Tip:** Watch at **2x speed** as it is just a proof-of-work.  
 
 ---
 <br>
 
+<br>
 ### 📊 Proof of Work
+<br>
 But...
 This is more than just writing code.  
 I'm dedicating significant hours, tackling real-world challenges, and meticulously tracking every moment of my journey.
@@ -98,28 +112,40 @@ The journey has just begun, and my potential is limitless.
 
 ---
 <br>
+<br>
 
+<br>
 #### 🚀 **Total Lines of Code: 27,887**
+<br>
+<br>
 <div align="center">
   <img src="{{ site.baseurl }}/assets/git-fame-27887.png" alt="Git Fame 27,887 LOC" width="600">
 </div>
 <br>
+<br>
 
 ---
 <br>
 
+<br>
 #### ⏳ **401 Hours of Coding Time in 2 months**  
+<br>
 Tracked with **WakaTime**:  
 
+<br>
 <div align="center">
   <img src="{{ site.baseurl }}/assets/wakatime-dashboard.png" alt="WakaTime Dashboard" width="800">
 
 </div>
+<br>
 
 ---
 <br>
+<br>
 
+<br>
 ## Where I (really) Am  
+<br>
 
 Without AI copilot, right now?  
 - Learning Python basics through **Exercism**.  
@@ -133,7 +159,9 @@ I'm not here to fake expertise. I'm here to document the real thing: the messy, 
 ---
 <br>
 
+<br>
 ## Where I'm Going  
+<br>
 
 I'm taking a **"classics first"** approach, knowing it might take years—but also knowing these are the foundations that last:  
 
@@ -152,8 +180,11 @@ For AI? Starting with Andrew Ng's courses, then leveling up with:
 
 ---
 <br>
+<br>
 
+<br>
 ## My Ultimate Goal: AI-Powered Trading  
+<br>
 
 Beyond mastering the CS fundamentals, my ultimate objectives are:
 1. Achieving excellence as a software engineer with profound expertise.
@@ -167,7 +198,9 @@ A full-scale, adaptive system that can:
 - Adapt with Reinforcement Learning  
 - Identify patterns with Deep Learning  
 
+<br>
 ### Why I Believe I Can Do This
+<br>
 
 I've been fortunate to excel in every field I've pursued:
 - As a lawyer, I was recognized for my analytical skills and attention to detail
@@ -180,7 +213,9 @@ And software engineering is no exception.
 ---
 <br>
 
+<br>
 ### The reading list for that:  
+<br>
 
 1. **Artificial Intelligence: A Modern Approach** (Russell & Norvig)  
 2. **Pattern Recognition and Machine Learning** (Bishop)  
@@ -197,8 +232,11 @@ Take my current strategies and unlock their next level using AI to manage risk, 
 
 ---
 <br>
+<br>
 
+<br>
 ## Now Working On  
+<br>
 
 - [Dots](https://github.com/Rae699/Dots) — signal screeners, trading tools (some parts private).  
   → Current goal: finalize 5 screeners, trace and refactor the code, remove redundancies, and optimize after reinforcing my DSA skills.  
@@ -208,7 +246,9 @@ Take my current strategies and unlock their next level using AI to manage risk, 
 ---
 <br>
 
+<br>
 ## How I'm Getting There  
+<br>
 
 - **8 hours every day**, no exceptions.  
 - Exercism, LeetCode, reading, coding, repeat.  
@@ -219,6 +259,7 @@ This isn't a bootcamp.
 This is the new normal.  
 
 ---
+<br>
 <br>
 
 This blog is how I'll stay accountable.  

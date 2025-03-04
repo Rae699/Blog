@@ -8,12 +8,17 @@ description: "First checkpoint on my journey."
 github: https://github.com/Rae699
 comments: false
 ---
+<br>
 
+<br>
 # Week 1 - Bilan
+<br>
 
 Alright, time to log the first checkpoint.
 
+<br>
 ## ✅ Achievements:
+<br>
 - 30 exercises completed on Exercism.  
 
 Lesson learned: Struggled significantly with dictionary lessons. Felt quite defeated.
@@ -33,7 +38,9 @@ The gap now is just turning that into clean, error-free Python without stumbling
 
 
 
+<br>
 ## 🔜 What's next?
+<br>
 Pretty clear to me:
 1. **Own the syntax.** Really own it. Get to the point where I type it without thinking.
 2. After that, it's time to **level up on the Python "tools"** — all those standard library tricks, those built-ins, the stuff that lets you glide through problems.
@@ -45,7 +52,9 @@ So once the fundamentals click, I know there's this whole toolkit waiting to be 
 
 ---
 
+<br>
 ## - Dots + Sentinelle Updates
+<br>
 
 The vibe-coding journey continues, and while the critical thinking piece is still a work in progress, the learning curve is exhilarating. 
 With AI as my co-pilot, it's like having a seasoned dev' whispering insights in my ear all day long.
@@ -64,8 +73,11 @@ This is the path forward.
 
 
 ---
+<br>
 
+<br>
 ## ⌨️ Typing Speed
+<br>
 **80 WPM achieved.**  
 For a few letters only.
 
@@ -76,7 +88,9 @@ Next step: Adding more letters at 80 WPM, then aiming for 120 WPM.
 
 ---
 
+<br>
 ## 📚 Elsewhere on the grind:
+<br>
 
 **SICP** – Currently, page 75
 Working through the exercises.  
@@ -95,6 +109,7 @@ Enjoying the journey.
 
 
 ---
+<br>
 
 That's it for Week 1.  
 Next week? Fewer silly mistakes, faster syntax recall, and making this stuff feel like second nature.
