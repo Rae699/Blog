@@ -21,6 +21,7 @@ Today, I want to share my current read on the macro landscape and how I'm positi
 
 As [Mark Minervini highlighted](https://x.com/markminervini/status/1896580468729938316), the S&P 500 cycle composite suggests continued weakness into early April, followed by a potential rally into the summer.  
 The long-term trend remains intact for now—our $SPY Advisor Model hasn't flipped bearish—but cracks are forming.  
+
 Personally, I see the early signs of a speculative bubble. Of course, bubbles can drag on longer than anyone expects... but they never end quietly.
 Everyone thinks markets only go up, it almost feels like there is no more fear of losing money in the markets.
 
@@ -46,9 +47,10 @@ Blow off some steam, reset expectations, and potentially set up the next leg hig
 
 <div class="warning-box">
 <h3>Steve Cohen on Current Risks</h3>
-<p>From his recent [Yahoo Finance interview](https://finance.yahoo.com/news/hedge-fund-boss-steve-cohen-114734444.html):  
-_"I think this is one of those moments where there's really a lot of uncertainty... Tariffs cannot be positive, I mean it's a tax. And you can imagine tit for tat if the U.S. does something—it implements a tax on somebody—somebody else is going to perhaps raise the stakes and raise their tax back."_  
-</p>
+<p>From his recent [Yahoo Finance interview](https://finance.yahoo.com/news/hedge-fund-boss-steve-cohen-114734444.html):</p>
+<blockquote>
+_"I think this is one of those moments where there's really a lot of uncertainty... Tariffs cannot be positive, I mean it's a tax. And you can imagine tit for tat if the U.S. does something—it implements a tax on somebody—somebody else is going to perhaps raise the stakes and raise their tax back."_
+</blockquote>
 </div>
 
 **Key risks I'm tracking:**  
@@ -62,22 +64,11 @@ _"I think this is one of those moments where there's really a lot of uncertainty
 ## Why This Matters
 
 A 40% slowdown in GDP growth, especially compressed into a single quarter, isn't just a number on a chart.  
-Historically, that kind of sudden deceleration signaled major turning points—think 1987, 2000, 2008.  
+
+**Historically, that kind of sudden deceleration signaled major turning points—think 1987, 2000, 2008.**  
+
 The speed matters. Markets can digest gradual slowdowns. They choke on sudden stops.  
 And right now, valuations aren't reflecting that risk. I'm personally not betting on this ending softly.
-
-<br>
-
-<div class="market-indicator">
-  <div class="indicator-label">Mark Minervini's Technical Analysis</div>
-  <div class="indicator-value">🚨 Distribution Phase Signals</div>
-</div>
-
-<div class="custom-container">
-<blockquote class="twitter-quote">
-_"Market breadth deteriorating significantly. Multiple distribution days showing institutional selling. Risk levels elevated."_ — @markminervini
-</blockquote>
-</div>
 
 <br>
 
@@ -105,7 +96,6 @@ I'm just listening to what the market is telling me and adapting.
 
 Here's my current stance:  
 - **Almost zero long exposure**  
-- **Maintaining $SPY short position** (initiated 2/24)  
 - **High cash levels** for opportunities
 
 It's a defensive posture. I'd rather protect capital than chase gains in a late-stage move.  
@@ -129,22 +119,26 @@ The long-term vision? Fully automated, adaptive strategies that allow me to focu
 ## What's Next
 
 The next 6-12 months feel like a crossroads.  
+
+Markets don't care about opinions.
+They care about flows, positioning, and psychology.
+
 While I'm working through SICP and grinding LeetCode, I'm also monitoring:
 
 <div class="analysis-section">
-<p>Key Indicators</p>
-- Dollar strength trends  (dxy and major forex pairs)
-- Hard asset price action  (gold + btc)
-- Market structure shifts (slowly ongoing) 
+</h3>Key Indicators</h3>
+- Dollar strength trends (DXY and major forex pairs)
+- Hard asset price action (gold + BTC)
+- Market structure shifts (slowly ongoing)
+- Systemic risk markers
 - Retail sentiment (no fear, "up only")
 </div>
 
 <div class="warning-box">
-<p>Key risk to watch:<br>
-As Marks warns, _"the multiple correction is compressed into a year or two, implying a big decline in stock prices such as we saw in 1973-74 and 2000-02."_</p>
-<p>Markets don't care about opinions.<br>
-They care about flows, positioning, and psychology.<br>
-Stay systematic. Stay humble. Stay ready.</p>
+</h3>Key risk to watch:</h3>
+<blockquote>
+_"The multiple correction is compressed into a year or two, implying a big decline in stock prices such as we saw in 1973-74 and 2000-02."_ — Howard Marks
+</blockquote>
 </div>
 
 <br>
