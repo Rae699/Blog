@@ -2,7 +2,7 @@
 layout: post
 title: "👋 Start Here — My Journey to FAANG-Level Engineering"
 date: 2025-03-01
-categories: introduction roadmap journey
+categories: cs
 author: Remy
 description: "From real estate lawyer to FAANG-level engineer: A structured 2-year journey through CS fundamentals, systems design, and AI-powered trading."
 pinned: true

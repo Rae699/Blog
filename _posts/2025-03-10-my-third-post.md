@@ -2,7 +2,7 @@
 layout: post
 title: "Week 1 — Checkpoint"
 date: 2025-03-03
-categories: cs journey python trading
+categories: cs 
 author: Remy
 description: "First checkpoint on my journey."
 github: https://github.com/Rae699
