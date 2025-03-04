@@ -6,7 +6,7 @@ categories: cs journey python trading
 author: Remy
 description: "From real estate lawyer to AI-powered trading systems—my journey into Computer Science from zero."
 github: https://github.com/Rae699
-comments: true
+comments: false
 ---
 
 

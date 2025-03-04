@@ -5,7 +5,7 @@ date: 2025-03-03
 categories: roadmap cs trading ai python
 author: Remy
 description: "The structured 2-year plan to go from beginner to systems builder, with a focus on CS fundamentals, trading systems, and AI."
-comments: true
+comments: false
 ---
 
 # 🛠️ The Plan: 24 Months to Mastery
