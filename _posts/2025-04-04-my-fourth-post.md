@@ -134,13 +134,11 @@ While I'm working through SICP and grinding LeetCode, I'm also monitoring:
 
 <div class="analysis-section">
 <h3>Key Indicators</h3>
-<ul>
 - Dollar strength trends (DXY and major forex pairs)
 - Hard asset price action (gold + BTC)
 - Market structure shifts (slowly ongoing)
 - Systemic risk markers
 - Retail sentiment (no fear, "up only")
-</ul>
 </div>
 
 <div class="warning-box">
@@ -153,6 +151,7 @@ _"The multiple correction is compressed into a year or two, implying a big decli
 </div>
 
 ---
+<br>
 <br>
 <div class="warning-box">
 <p><strong>Disclaimer:</strong> This post reflects my personal views and analysis. Always do your own research. Nothing here is financial advice. I'm sharing my journey to learn, improve, and build alongside you.</p>
