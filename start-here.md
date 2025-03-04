@@ -62,7 +62,7 @@ My north star? Getting into Google. Not just passing the interview, but being ab
 - ✅ Python Mastery via Exercism
 - 🔄 CS Fundamentals (SICP, CS:APP)
 - 🔄 Basic DSA (Arrays, Strings, Hash Maps)
-- 📝 [Detailed Phase 1 Plan](/Blog/2025/03/03/my-second-post.html)
+- 📝 [Detailed Phase 1 Plan]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})
 
 <br>
 
@@ -70,7 +70,7 @@ My north star? Getting into Google. Not just passing the interview, but being ab
 - 🔲 System Design
 - 🔲 Advanced Algorithms
 - 🔲 Distributed Systems
-- 🔲 [Full Roadmap Here](/Blog/2025/03/03/my-second-post.html)
+- 🔲 [Full Roadmap Here]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})
 
 <br>
 
@@ -81,7 +81,7 @@ An AI-powered trading system that:
 - Automates signal detection
 - Manages risk dynamically
 - Optimizes execution
-- [Read the Deep Dive](/Blog/2025/03/03/my-first-post.html)
+- [Read the Deep Dive]({{ site.baseurl }}{% post_url 2025-03-03-my-first-post %})
 
 <br>
 
@@ -90,7 +90,7 @@ A collaborative trading infrastructure:
 - Modular strategy framework
 - Real-time market analysis
 - ML-driven signal generation
-- [Project Overview](/Blog/2025/03/03/my-first-post.html)
+- [Project Overview]({{ site.baseurl }}{% post_url 2025-03-03-my-first-post %})
 
 <br>
 
@@ -100,14 +100,14 @@ A collaborative trading infrastructure:
 1. [Structure and Interpretation of Computer Programs (SICP)](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)
 2. Computer Systems: A Programmer's Perspective
 3. The Algorithm Design Manual
-4. [Full Reading List](/Blog/2025/03/03/my-second-post.html)
+4. [Full Reading List]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})
 
 <br>
 
 ### AI & ML Track
 1. Artificial Intelligence: A Modern Approach
 2. Deep Learning (Goodfellow)
-3. [Complete AI Curriculum](/Blog/2025/03/03/my-second-post.html)
+3. [Complete AI Curriculum]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})
 
 <br>
 
@@ -119,7 +119,7 @@ Every week, I publish:
 3. 💡 Project Updates
 4. 📊 Stats & Metrics
 
-[Latest Update](/Blog/2025/03/10/my-third-post.html)
+[Latest Update]({{ site.baseurl }}{% post_url 2025-03-10-my-third-post %})
 
 <br>
 
