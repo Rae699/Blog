@@ -103,6 +103,7 @@ Tracked with **WakaTime**:
 
 <div align="center">
   <img src="{{ site.baseurl }}/assets/wakatime-dashboard.png" alt="WakaTime Dashboard" width="800">
+
 </div>
 
 ---
@@ -162,6 +163,8 @@ I've been fortunate to excel in every field I've pursued:
 
 The pattern is clear: I don't just participate in fields—I aim at mastering them. 
 And software engineering is no exception.
+
+---
 
 ### The reading list for that:  
 
