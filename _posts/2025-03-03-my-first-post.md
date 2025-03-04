@@ -8,7 +8,7 @@ description: "From real estate lawyer to AI-powered trading systems—my journey
 github: https://github.com/Rae699
 comments: false
 ---
-
+<br>
 
 ## Week 1 — From Zero to CS  
 
@@ -32,6 +32,7 @@ I'm done being "technical enough" to scrape by.
 And the only way is through.  
 
 ---
+<br>
 
 ## How It Started  
 
@@ -53,6 +54,7 @@ If I wanted to build something real—plug in new strategies, add exchange integ
 I needed Computer Science.  
 
 ---
+<br>
 
 ## What I(-AI) have Achieved (So Far)
 
@@ -76,6 +78,7 @@ Here's a quick walkthrough of the system running:
 > ⚠️ **Tip:** Watch at **2x speed** as it is just a proof-of-work.  
 
 ---
+<br>
 
 ### 📊 Proof of Work
 But...
@@ -90,6 +93,7 @@ AI provides guidance, but I am determined to enhance my own critical thinking an
 The journey has just begun, and my potential is limitless.
 
 ---
+<br>
 
 #### 🚀 **Total Lines of Code: 27,887**
 <div align="center">
@@ -97,6 +101,7 @@ The journey has just begun, and my potential is limitless.
 </div>
 
 ---
+<br>
 
 #### ⏳ **401 Hours of Coding Time in 2 months**  
 Tracked with **WakaTime**:  
@@ -107,6 +112,7 @@ Tracked with **WakaTime**:
 </div>
 
 ---
+<br>
 
 ## Where I (really) Am  
 
@@ -120,6 +126,7 @@ Without AI copilot, right now?
 I'm not here to fake expertise. I'm here to document the real thing: the messy, slow climb from beginner to pro-builder.  
 
 ---
+<br>
 
 ## Where I'm Going  
 
@@ -139,6 +146,7 @@ And after that? More **LeetCode**, more AI, and my own projects to lock it all i
 For AI? Starting with Andrew Ng's courses, then leveling up with:
 
 ---
+<br>
 
 ## My Ultimate Goal: AI-Powered Trading  
 
@@ -165,6 +173,7 @@ The pattern is clear: I don't just participate in fields—I aim at mastering th
 And software engineering is no exception.
 
 ---
+<br>
 
 ### The reading list for that:  
 
@@ -182,15 +191,17 @@ The goal is simple:
 Take my current strategies and unlock their next level using AI to manage risk, detect market regimes, and optimize execution.
 
 ---
+<br>
 
 ## Now Working On  
 
-- [Dots](https://github.com/your-dots-repo) — signal screeners, trading tools (some parts private).  
+- [Dots](https://github.com/Rae699/Dots) — signal screeners, trading tools (some parts private).  
   → Current goal: finalize 5 screeners, trace and refactor the code, remove redundancies, and optimize after reinforcing my DSA skills.  
 
 - [Sentinelle](https://github.com/SentiCap/SentinelleCap) — a collaborative trading infrastructure with Jun, Sylvain, and Emile (ex-investment bankers).  
 
 ---
+<br>
 
 ## How I'm Getting There  
 
@@ -203,6 +214,7 @@ This isn't a bootcamp.
 This is the new normal.  
 
 ---
+<br>
 
 This blog is how I'll stay accountable.  
 

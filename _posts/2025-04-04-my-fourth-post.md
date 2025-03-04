@@ -1,39 +1,70 @@
 ---
-layout: post
-title: "Trading Through the Storm: Market Analysis & My Edge"
-date: 2025-03-04
-categories: markets 
-author: Remy
-description: "While grinding CS, I'm navigating market turbulence. Here's my analysis of current market conditions and how I'm maintaining my edge."
-comments: false
+layout: post  
+title: "Trading Through the Storm: Market Analysis & My Edge"  
+date: 2025-03-04  
+categories: markets  
+author: Remy  
+description: "While grinding CS, I'm navigating market turbulence. Here's my analysis of current market conditions and how I'm maintaining my edge."  
+comments: false  
 ---
+<br>
 
 # Trading Through the Storm: Market Analysis & My Edge
 
-While I'm deep in my CS journey, I'm also actively trading to fund this transition. Today, I want to share some thoughts on the current market landscape and how I'm positioning myself.
+While I'm deep in my CS journey, I'm also actively trading to fund this transition.  
+Balancing both has been intense, but the truth is: these markets demand it.  
+Today, I want to share my current read on the macro landscape and how I'm positioning myself to stay sharp—both as a trader and a builder.
 
 <br>
 
 ## The Big Picture: Economic Headwinds
 
-The S&P 500 cycle composite work suggests continued weakness heading into early April before a potential rally into the Summer. While our long-term trend remains intact and the $SPY Advisor Model hasn't triggered a sell signal yet, there are concerning signs of potential bubble formation - though bubbles can take considerable time to pop.
+As [Mark Minervini highlighted](https://x.com/markminervini/status/1896580468729938316), the S&P 500 cycle composite suggests continued weakness into early April, followed by a potential rally into the summer.  
+The long-term trend remains intact for now—our $SPY Advisor Model hasn't flipped bearish—but cracks are forming.  
+Personally, I see the early signs of a speculative bubble. Of course, bubbles can drag on longer than anyone expects... but they never end quietly.
+Everyone thinks markets only go up, it almost feels like there is no more fear of losing money in the markets.
 
-<br>
+<div align="center">
+  <img src="{{ site.baseurl }}/assets/minervini_sp500_trend_channel.png" alt="S&P 500 Trend Channel Analysis by Mark Minervini" width="800">
+  <p><em>S&P 500 Trend Channel Analysis - Source: Mark Minervini (@markminervini)</em></p>
+</div>
 
-Notably, the S&P 500 is trading above its upper trend channel. This has only occurred a few times historically - around the 1929 and 2000 peaks, with a brief excursion during the 2021 peak. A correction at this point could actually be healthy, letting some air out of the market to fuel a more sustainable bull market.
+<div align="center">
+  <img src="{{ site.baseurl }}/assets/minervini_sp500_composite.png" alt="S&P 500 Cycle Composite by Mark Minervini" width="800">
+  <p><em>S&P 500 Cycle Composite for 2025 - Source: Mark Minervini (@markminervini)</em></p>
+</div>
+
+Right now, the S&P 500 is trading above its upper trend channel.  
+Historically? That only happened in 1929, 2000, and briefly in 2021. 
+
+None of those ended well.  
+
+In my opinion, a correction here wouldn't just be expected—it'd be healthy. 
+Blow off some steam, reset expectations, and potentially set up the next leg higher with a stronger foundation.
 
 <br>
 
 <div class="warning-box">
 <h3>Steve Cohen on Current Risks</h3>
-<p>"I think this is one of those moments where there's really a lot of uncertainty... Tariffs cannot be positive, I mean it's a tax. And you can imagine tit for tat if the U.S. does something—it implements a tax on somebody—somebody else is going to perhaps raise the stakes and raise their tax back."</p>
+<p>From his recent [Yahoo Finance interview](https://finance.yahoo.com/news/hedge-fund-boss-steve-cohen-114734444.html):  
+_"I think this is one of those moments where there's really a lot of uncertainty... Tariffs cannot be positive, I mean it's a tax. And you can imagine tit for tat if the U.S. does something—it implements a tax on somebody—somebody else is going to perhaps raise the stakes and raise their tax back."_  
+</p>
 </div>
 
-Key concerns from Cohen's analysis:
-- Tariff impacts and potential trade wars
-- Slowing immigration affecting labor force growth
-- DOGE-related austerity measures
-- Point72's outlook: Economic growth dropping from 2.5% to 1.5%
+**Key risks I'm tracking:**  
+- Tariffs and potential trade wars  
+- Slowing immigration tightening the labor market  
+- Fiscal austerity colliding with election-year spending  
+- Point72's GDP outlook: a sharp drop from 2.5% to 1.5%  
+
+<br>
+
+## Why This Matters
+
+A 40% slowdown in GDP growth, especially compressed into a single quarter, isn't just a number on a chart.  
+Historically, that kind of sudden deceleration signaled major turning points—think 1987, 2000, 2008.  
+The speed matters. Markets can digest gradual slowdowns. They choke on sudden stops.  
+And right now, valuations aren't reflecting that risk. I'm personally not betting on this ending softly.
 
 <br>
 
@@ -44,7 +75,7 @@ Key concerns from Cohen's analysis:
 
 <div class="custom-container">
 <blockquote class="twitter-quote">
-"Market breadth deteriorating significantly. Multiple distribution days showing institutional selling. Risk levels elevated." - @markminervini
+_"Market breadth deteriorating significantly. Multiple distribution days showing institutional selling. Risk levels elevated."_ — @markminervini
 </blockquote>
 </div>
 
@@ -52,83 +83,93 @@ Key concerns from Cohen's analysis:
 
 ## The Dollar Devaluation Thesis
 
-Here's where it gets interesting. The setup looks increasingly like we're heading toward:
+Where do we go from here? Here's the scenario I'm preparing for:
 
-1. A bear market phase
-2. Followed by significant dollar devaluation to address debt
-3. Creating a massive opportunity in hard assets
+1. Bear market phase  
+2. Aggressive dollar devaluation to manage debt  
+3. Rotation into hard assets (commodities, gold, Bitcoin)  
 
-<br>
+This isn't theoretical.  
+As Howard Marks wrote in his latest [Oaktree memo, *On Bubble Watch*](https://www.oaktreecapital.com/insights/memo-podcast/behind-the-memo-on-bubble-watch):
 
-As Howard Marks notes:
-> "It shouldn't come as a surprise that the return on an investment is significantly a function of the price paid for it. For that reason, investors clearly shouldn't be indifferent to today's market valuation."
+> _"It shouldn't come as a surprise that the return on an investment is significantly a function of the price paid for it. For that reason, investors clearly shouldn't be indifferent to today's market valuation."_
 
-<br>
-
-### My Positioning Strategy
-
-Given these signals, I've adjusted my positioning:
-- Almost zero long exposure
-- Maintaining $SPY short position (initiated 2/24)
-- Using shorts as hedge against remaining long positions
+Put simply: the risk/reward here is getting skewed.
 
 <br>
 
-<div class="warning-box">
-<p>Key Risk: As Marks warns, "the multiple correction is compressed into a year or two, implying a big decline in stock prices such as we saw in 1973-74 and 2000-02."</p>
-</div>
+### How I'm Positioned
+
+I'm not trying to predict the exact top. I'm not calling the crash.  
+I'm just listening to what the market is telling me and adapting.
+
+Here's my current stance:  
+- **Almost zero long exposure**  
+- **Maintaining $SPY short position** (initiated 2/24)  
+- **High cash levels** for opportunities
+
+It's a defensive posture. I'd rather protect capital than chase gains in a late-stage move.  
+Risk management over hero trades, always.
 
 <br>
 
-## Why This Matters for My CS Journey
+## Why This Fuels My CS Journey
 
-This market environment is exactly why I'm:
+This market is part of why I'm pouring so much energy into CS.  
+It's not just about surviving the storm—it's about building systems that *thrive* in it.
 
-1. Building robust trading systems
-2. Learning CS fundamentals deeply
-3. Focusing on AI/ML for better market analysis
+1. I'm building robust trading systems.  
+2. I'm grinding core CS concepts daily.  
+3. I'm exploring AI/ML to scale decision-making.  
+
+The long-term vision? Fully automated, adaptive strategies that allow me to focus on deep work—while my systems handle the rest.
 
 <br>
 
-The goal isn't just to trade better—it's to build systems that can adapt to changing market conditions while I focus on my CS studies.
+## What's Next
 
-<br>
-
-## Looking Ahead
-
-The next 6-12 months could be pivotal. While I'm grinding LeetCode and studying SICP, I'm keeping a close eye on:
+The next 6-12 months feel like a crossroads.  
+While I'm working through SICP and grinding LeetCode, I'm also monitoring:
 
 <div class="analysis-section">
 <h3>Key Indicators</h3>
-- Dollar strength indicators
-- Hard asset valuations
-- Technical market structure
-- Systematic risk signals
+- Dollar strength trends  
+- Hard asset price action  
+- Market structure shifts  
+- Systemic risk markers 
+- Retail sentiment 
 </div>
 
 <br>
 
-## My Edge in This Market
+## My Edge Right Now
 
-1. **Technology**: Building better tools than I've ever had
-2. **Systematic Approach**: Removing emotion from execution
-3. **Dual Focus**: Using CS skills to enhance trading, using trading to fund CS studies
+1. **Technology**: I'm building better tools than I've ever had.  
+2. **Systematic Process**: No room for emotions—just execution.  
+3. **Dual Focus**: CS and trading feeding each other, compounding skill.  
 
-<br>
-
-Remember what Howard Marks emphasizes: Markets don't care about our opinions. They care about supply and demand, flows, and positioning. Stay systematic, stay humble.
-
-<br>
 
 ---
+<br>
 
 <div class="warning-box">
-<p><strong>Disclaimer:</strong> This post reflects my personal views and analysis. Always do your own research and never trade based solely on someone else's opinion. Market analysis is provided for educational purposes only.</p>
+<p><strong>Disclaimer:</strong> This post reflects my personal views and analysis. Always do your own research. Nothing here is financial advice. I'm sharing my journey to learn, improve, and build alongside you.</p>
 </div>
 
 <br>
 
-_Follow my journey:_
-- [Trading Systems Progress]({{ site.baseurl }}{% post_url 2025-03-03-my-first-post %})
-- [CS Learning Path]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})
-- [Weekly Updates]({{ site.baseurl }}{% post_url 2025-03-10-my-third-post %})
+<div class="warning-box">
+<p>Key risk to watch:<br>
+As Marks warns, _"the multiple correction is compressed into a year or two, implying a big decline in stock prices such as we saw in 1973-74 and 2000-02."_</p>
+
+<p>Markets don't care about opinions.<br>
+They care about flows, positioning, and psychology.<br>
+Stay systematic. Stay humble. Stay ready.</p>
+</div>
+
+<br>
+
+_Follow my journey:_  
+- [Trading Systems Progress]({{ site.baseurl }}{% post_url 2025-03-03-my-first-post %})  
+- [CS Learning Path]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})  
+- [Weekly Updates]({{ site.baseurl }}{% post_url 2025-03-10-my-third-post %})  

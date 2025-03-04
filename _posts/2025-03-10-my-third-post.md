@@ -8,6 +8,7 @@ description: "First checkpoint on my journey."
 github: https://github.com/Rae699
 comments: false
 ---
+<br>
 
 # Week 1 - Bilan
 
@@ -44,6 +45,7 @@ So once the fundamentals click, I know there’s this whole toolkit waiting to b
 
 
 ---
+<br>
 
 ## - Dots + Sentinelle Updates
 
@@ -64,6 +66,7 @@ This is the path forward.
 
 
 ---
+<br>
 
 ## ⌨️ Typing Speed
 **80 WPM achieved.**  
@@ -75,6 +78,7 @@ But hey, when the ideas are flowing, might as well have the hands to match.
 Next step: Adding more letters at 80 WPM, then aiming for 120 WPM. 
 
 ---
+<br>
 
 ## 📚 Elsewhere on the grind:
 
@@ -95,6 +99,7 @@ Enjoying the journey.
 
 
 ---
+<br>
 
 That’s it for Week 1.  
 Next week? Fewer silly mistakes, faster syntax recall, and making this stuff feel like second nature.
