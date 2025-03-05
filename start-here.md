@@ -57,6 +57,7 @@ My north star? Getting into Google or a FAANG. Not just passing the interview, b
     <div class="progress-text">40/120 WPM</div>
   </div>
 </div>
+<br>
 
 
 ---
