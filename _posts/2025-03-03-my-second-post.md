@@ -7,26 +7,21 @@ author: Remy
 description: "The structured 2-year plan to go from beginner to systems builder, with a focus on CS fundamentals, trading systems, and AI."
 comments: false
 ---
-<br>
 
-<br>
-# 🛠️ The Plan: 24 Months to Mastery
-<br>
+## 🛠️ The Plan: 24 Months to Mastery
 
 Welcome! This repository documents my journey from total beginner to mastering computer science, algorithms, and AI-driven trading systems.  
 Over the next **24 months**, I'll be following a structured plan combining classic CS education, daily practice, and real-world projects.
 
 This journey is meticulously planned to ensure a structured and comprehensive path to mastery. It's a personal roadmap designed to keep me organized and focused on my goals.
 
+
 ---
 
-<br>
 ## ⏳ Timeline — 24-Month Roadmap
-<br>
 
 | Timeframe | Focus |
-|---
-<br>--------|-------|
+|-----------|-------|
 | **Months 1–3** | Python, Exercism, Basic DSA: arrays/strings/hashmaps. Start LeetCode. |
 | **Months 4–6** | Recursion, binary search, trees. Refactor my main project |
 | **Months 7–9** | Sorting, sliding window, two pointers, basic graphs. |
@@ -36,11 +31,10 @@ This journey is meticulously planned to ensure a structured and comprehensive pa
 | **Months 19–21** | System design, distributed systems intro. Leetcode Hard+.|
 | **Months 22–24** |Final project delivery. Enjoy life changing skills |
 
+
 ---
 
-<br>
 ## 📚 Core CS Curriculum
-<br>
 
 I'm following a **"classics-first"** approach, built around these foundational texts:
 
@@ -53,15 +47,12 @@ I'm following a **"classics-first"** approach, built around these foundational t
 - **C Programming: A Modern Approach**
 - **Fluent Python**
 
----
-<br>
 
-<br>
+---
+
 ## 🤖 AI Track (For Advanced Trading Systems)
-<br>
 
 In parallel, I'll tackle AI and machine learning to build adaptive, intelligent trading systems:
-
 - **Artificial Intelligence: A Modern Approach** (Russell & Norvig)
 - **Pattern Recognition and Machine Learning** (Bishop)
 - **Deep Learning** (Goodfellow, Bengio, Courville)
@@ -69,11 +60,10 @@ In parallel, I'll tackle AI and machine learning to build adaptive, intelligent 
 - **Deep Learning with Python** (Chollet)
 - **Deep Learning for Coders with fastai & PyTorch** (Howard & Gugger)
 
+
 ---
 
-<br>
 ## 🏗️ Daily Routine (The Dots Discipline)
-<br>
 
 Every day, without fail:
 
@@ -85,16 +75,14 @@ Every day, without fail:
 - 🧠 LeetCode, NeetCode, 
 - 📊 DOTS Trading system development & refactoring
 
+
 ---
-<br>
 
-<br>
 ## ⚙️ Current Projects
-<br>
 
-<br>
+
 ### [Dots](https://github.com/Rae699/Dots)
-<br>
+
 A modular trading suite for signal generation and strategy automation. From scratch.
 
 **In progress:**
@@ -106,19 +94,15 @@ A modular trading suite for signal generation and strategy automation. From scra
   - BreakSi module.
 - Full code optimization using new DSA knowledge.
 
----
 
-<br>
 ### [Sentinelle](https://github.com/SentiCap/SentinelleCap)
-<br>
+
 A collaborative trading infrastructure with modular, plug-and-play strategies.
 
----
-<br>
 
-<br>
+---
+
 ## 🎯 Meta Goals
-<br>
 
 - ✅ Build open-source projects (for the portfolio and community).
 - ✅ Write blog posts and developer logs.
@@ -128,9 +112,7 @@ A collaborative trading infrastructure with modular, plug-and-play strategies.
 
 ---
 
-<br>
 ## 📌 Why This Exists
-<br>
 
 To close the gap between:
 - **"I can hack it together."**  
@@ -144,12 +126,8 @@ Follow along, fork the repo, or reach out.
 Let's build.
 
 ---
-<br>
 
-<br>
-## �� Links
-<br>
+## 🔗🔗 Links
+
 - 🐙 GitHub: [https://github.com/Rae699](https://github.com/Rae699)
 - 📊 Projects: [Dots](https://github.com/Rae699/Dots) | [Sentinelle](https://github.com/SentiCap/SentinelleCap)
-
----
