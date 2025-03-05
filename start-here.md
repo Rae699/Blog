@@ -25,56 +25,36 @@ My north star? Getting into Google or a FAANG. Not just passing the interview, b
 ## 📊 Current Progress
 
 <div class="progress-section">
-
   <div class="progress-item">
     <div class="progress-label">LeetCode Easy</div>
-<br>
     <div class="progress-bar">
       <div class="progress-fill" style="width: 0%"></div>
-<br>
     </div>
-<br>
     <div class="progress-text">0/100</div>
-<br>
   </div>
-<br>
 
   <div class="progress-item">
     <div class="progress-label">SICP Progress</div>
-<br>
     <div class="progress-bar">
       <div class="progress-fill" style="width: 6.5%"></div>
-<br>
     </div>
-<br>
     <div class="progress-text">43/660</div>
-<br>
   </div>
-<br>
 
   <div class="progress-item">
     <div class="progress-label">Exercism Python Track</div>
-<br>
     <div class="progress-bar">
       <div class="progress-fill" style="width: 7.9%"></div>
-<br>
     </div>
-<br>
     <div class="progress-text">11/140</div>
-<br>
   </div>
-<br>
 
   <div class="progress-item">
     <div class="progress-label">Typing Speed</div>
-<br>
     <div class="progress-bar">
       <div class="progress-fill" style="width: 33.3%"></div>
-<br>
     </div>
-<br>
     <div class="progress-text">40/120 WPM</div>
-<br>
   </div>
 </div>
 
