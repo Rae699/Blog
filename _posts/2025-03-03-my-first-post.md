@@ -61,7 +61,6 @@ It's been about **two months**. Here's what that looks like:
 - ✅ **27,887 lines of code written**  
 - ✅ **401 hours of tracked work**  
 - ✅ First working version of my trading system live  
-- ✅ Automating real strategies end-to-end  
 
 But enough talk.  
 
