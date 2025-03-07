@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "Trading Through the Storm: Market Analysis & My Edge"  
+title: "Trading Through the Storm #1"  
 date: 2023-03-04  
 categories: markets  
 author: Remy  
@@ -136,6 +136,13 @@ Markets don't care about opinions.
 They care about flows, positioning, and psychology.  
 
 While I'm working through SICP and grinding LeetCode, I'm also monitoring:
+
+### Bounce first
+The markets on short timeframes are currently looking pretty oversold.
+Bounces out of sell-offs are usually extremely fast and rewarding.
+That's pretty logical, it then creates a sense of complacency, the usual "we are so back".
+
+I will likely sell a bit more of my remaining (already really small) exposure.
 
 ### Key Indicators
 - Dollar strength trends (DXY and major forex pairs)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week 1 — From Zero to CS"
+title: "From Zero to CS"
 date: 2023-03-03
 categories: cs
 author: Remy

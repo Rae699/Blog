@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week 1 — The Plan: 24 Months to Mastery"
+title: "The Plan: 24 Months to Mastery"
 date: 2023-03-03
 categories: cs
 author: Remy
