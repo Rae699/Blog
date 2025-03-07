@@ -8,16 +8,25 @@ permalink: /start-here/
 
 Hi👋
 
-I'm Remy. I'm on an intense 2-year journey to transform from a real estate lawyer into a Google-level software engineer, studying 50+ hours per week. This blog documents my entire journey—the wins, the struggles, and everything I learn along the way.
+I'm Remy. 
+
+I'm on an intense 2-year journey to transform from a real estate lawyer turned portfolio manager in a family-office into a FAANG-level software engineer, studying 50+ hours per week. 
+This blog documents my entire journey—the wins, the struggles, and everything I learn along the way.
+
+Why? 
+
+I have been vibe-coding with ai my entire trading strategies and i have now reached the point where i need CS skills to optimize it more.
 
 
 ---
 
 ## 🎯 The Goal
 
-**Transform into a world-class software engineer capable of building complex, scalable systems.**
+**Transform into a world-class software engineer capable of building complex, scalable and reliable systems.**
 
-My north star? Getting into Google or a FAANG. Not just passing the interview, but being able to genuinely contribute at that level.
+My north star? Getting into a FAANG. 
+
+Not just passing the interview, but **being able to genuinely contribute at that level.**
 
 
 ---
@@ -62,18 +71,49 @@ My north star? Getting into Google or a FAANG. Not just passing the interview, b
 
 ---
 
-## 🗺️ The Roadmap
+## 🧠 Learning Stack
+
+The goal is to master algorithms and push massively on systems, as the future is Cyborg, humans accelerated by AI, not full-AI imho.
+
+### 📚 Core CS
+1. [Structure and Interpretation of Computer Programs (SICP)]({{ site.baseurl }}{% post_url 2025-03-09-SICP %})
+2. Computer Systems: A Programmer's Perspective
+3. The Algorithm Design Manual
+4. Computer Networking: A Top-Down Approach
+5. Operating Systems: Three Easy Pieces (OSTEP)
+6. Thinking in Systems
+7. Cloud architecture patterns*
+8. Designing Data-Intensive Applications (DDIA)
+9. C Programming: A Modern Approach** 
+[Full Reading List]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})
+<br>
+
+### 🤖 AI Track (For Advanced Trading Systems)
+
+After having built strong fondations, I'll tackle AI and machine learning to build adaptive, intelligent trading systems:
+- **Artificial Intelligence: A Modern Approach** (Russell & Norvig)
+- **Pattern Recognition and Machine Learning** (Bishop)
+- **Deep Learning** (Goodfellow, Bengio, Courville)
+One of these:
+- **Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow** (Géron)
+- **Deep Learning with Python** (Chollet)
+- **Deep Learning for Coders with fastai & PyTorch** (Howard & Gugger)
+
+---
+
+## 🗺️ The Roadmap in simple terms
 
 ### Phase 1: Foundations (Current)
 - ✅ Python Mastery via Exercism
-- 🔄 CS Fundamentals (SICP, CS:APP)
-- 🔄 Basic DSA (Arrays, Strings, Hash Maps)
-- 📝 [Detailed Phase 1 Plan]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})
+- 🔄 CS Fundamentals (SICP, CS:APP, OSTEP, Computer networking...
+- 🔄 DSA (Algo design, Arrays, Strings, Hash Maps...)
+
 
 ### Phase 2: Advanced Concepts
-- 🔲 System Design
+- 🔄 Systems (thinking, design, cloud, data-intensive)
 - 🔲 Advanced Algorithms
 - 🔲 Distributed Systems
+- 🔲 AI optimization (i have a ton of structured and unstructured from my 10y trading journey)
 - 🔲 [Full Roadmap Here]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})
 
 
@@ -83,42 +123,27 @@ My north star? Getting into Google or a FAANG. Not just passing the interview, b
 
 ### [Dots Trading System](https://github.com/Rae699/Dots)
 
-An trading system that:
-- Automates signal detection
-- Manages risk dynamically
-- Optimizes execution
-- [Read the Deep Dive]({{ site.baseurl }}{% post_url 2025-03-03-my-first-post %})
+*Dots* is a fully automated, multi-exchange signal screener that:
+- Fetches data across all cryptocurrencies listed on Binance,
+- Automates signal detection across 14 timeframes per asset using multiple custom strategies,
+- Outputs real-time, visual HTML screeners,
+- Modularized into 65 distinct modules for easy maintenance and scalability.
+- [Read the Deep Dive]({{ site.baseurl }}{% post_url 2025-03-07-Connect-the-dots %})
 
 ### [Sentinelle](https://github.com/SentiCap/SentinelleCap)
 
-A collaborative trading infrastructure:
+A collaborative trading infrastructure with 3 friends, investment-bankers:
 - Modular strategy framework
 - Real-time market analysis
-- ML-driven signal generation
+- Live execution and monitoring
 - [Project Overview]({{ site.baseurl }}{% post_url 2025-03-03-my-first-post %})
-
-
----
-
-## 📚 Learning Stack
-
-### Core CS
-1. [Structure and Interpretation of Computer Programs (SICP)](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)
-2. Computer Systems: A Programmer's Perspective
-3. The Algorithm Design Manual
-4. [Full Reading List]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})
-
-### AI & ML Track
-1. Artificial Intelligence: A Modern Approach
-2. Deep Learning (Goodfellow)
-3. [Complete AI Curriculum]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})
 
 
 ---
 
 ## 📈 Weekly Deep Dives
 
-Every week, I will publish:
+Every week, I will publish some updates, may it be about:
 1. 📊 Stats & Metrics
 2. 📝 Progress Report
 3. 🧠 Key Learnings
@@ -142,3 +167,6 @@ Every week, I will publish:
 > "The best time to plant a tree was 20 years ago. The second best time is now."
 
 Let's build something amazing together. 🚀 
+
+
+

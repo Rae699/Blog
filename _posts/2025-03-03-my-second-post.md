@@ -13,7 +13,8 @@ comments: false
 Welcome! This repository documents my journey from total beginner to mastering computer science, algorithms, and AI-driven trading systems.  
 Over the next **24 months**, I'll be following a structured plan combining classic CS education, daily practice, and real-world projects.
 
-This journey is meticulously planned to ensure a structured and comprehensive path to mastery. It's a personal roadmap designed to keep me organized and focused on my goals.
+This journey is meticulously planned to ensure a structured and comprehensive path to mastery. 
+It's a personal roadmap designed to keep me organized and focused on my goals.
 
 
 ---
@@ -41,11 +42,14 @@ I'm following a **"classics-first"** approach, built around these foundational t
 - **Structure and Interpretation of Computer Programs (SICP)**
 - **Computer Systems: A Programmer's Perspective (CS:APP)**
 - **The Algorithm Design Manual** (Skiena)
-- **Designing Data-Intensive Applications (DDIA)**
 - **Computer Networking: A Top-Down Approach**
 - **Operating Systems: Three Easy Pieces (OSTEP)**
-- **C Programming: A Modern Approach**
-- **Fluent Python**
+- **Thinking in Systems**
+- **Cloud architecture patterns** 
+- **Designing Data-Intensive Applications (DDIA)**
+- **C Programming: A Modern Approach** 
+
+The goal is to master algorithms and push massively on systems, as the future is Cyborg, humans accelerated by AI, not Android.
 
 
 ---
@@ -56,6 +60,7 @@ In parallel, I'll tackle AI and machine learning to build adaptive, intelligent 
 - **Artificial Intelligence: A Modern Approach** (Russell & Norvig)
 - **Pattern Recognition and Machine Learning** (Bishop)
 - **Deep Learning** (Goodfellow, Bengio, Courville)
+One of these:
 - **Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow** (Géron)
 - **Deep Learning with Python** (Chollet)
 - **Deep Learning for Coders with fastai & PyTorch** (Howard & Gugger)

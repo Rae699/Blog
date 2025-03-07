@@ -40,7 +40,7 @@ This blog is where I document the journey — from zero to creating powerful, AI
 ---
 
 ## Projects I'm building:
-- [**Dots**](https://github.com/Rae699/Dots) — a rock-solid trading system foundation for signals detection, trading execution. 
+- [**Dots**](https://github.com/Rae699/Dots) — a rock-solid trading system foundation for signals detection. 
 - [**Sentinelle**](https://github.com/SentiCap/SentinelleCap) — AI-powered market analysis and signal generation  
 
 Next steps:

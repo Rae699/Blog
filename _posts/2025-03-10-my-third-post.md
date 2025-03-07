@@ -16,15 +16,13 @@ Alright, time to log the first checkpoint.
 
 ## ✅ Achievements:
 
-- 30 exercises completed on Exercism.  
-
-Lesson learned: Struggled significantly with dictionary lessons. Felt quite defeated.
-=> Need to better internalize the built-in functions and methods for dictionaries.
-
+### ~20 exercises completed on Exercism.  
 Honestly, that's a cool milestone. I can feel the muscle growing. 
-
 But here's the truth: the code still doesn't quite feel like mine. I'm getting the jobs done, but there are these silly mistakes sneaking in—tiny syntax slips, misplaced colons, off-by-one things that shouldn't really happen. 
 It's like I'm holding the steering wheel but still checking the GPS every five seconds.
+
+The dictionary exercises were a real challenge and left me feeling pretty down.
+Everything felt like a giant fog and was like "Ok... what methods should i call, i actually almost dont know any"
 
 That said, the progress is real.  
 
@@ -32,6 +30,52 @@ A couple of months ago? I'd stare at a problem and just go blank. "_What even is
 
 Now I can at least map the territory. I read the problem, and I kind of know what's expected. I can picture the flow, sketch a rough solution.  
 The gap now is just turning that into clean, error-free Python without stumbling on the basics.
+Hence the need to internalize methods, cold.
+
+I need to get a solid grasp on the built-in functions and methods for python, nail down the syntax and methods so I'm not lost in the fog.
+
+New method and goal set:
+- Master the documentation of the exercises I have completed.
+- Thoroughly read and internalize the documentation of upcoming exercises.
+- Only after becoming familiar with the documentation, attempt to solve the related exercises. This approach should be more enjoyable and build confidence, not disappointment.
+- Complete 2 exercises per day until reaching 50, then reduce to 1 exercise per day. This way, I'll finish Exercism in approximately three and a half months.
+
+
+### Missing semester of your CS? 
+I was doing quite well until I encountered RegEx, Vim, and CLI.
+The sheer volume of information presented was overwhelming.
+I felt inundated. 
+
+Here's the deal: RegEx? Let AI handle that for now. 
+VIM? Not quite there yet.
+CLI? Love it, but tools like sed, awk, and tmux will get mastered over time with consistent use.
+
+New goal set:
+- Internalize some of these commands cold,
+- Work again on the solutions of these videos, internalize them.
+
+
+---
+
+## 🔜 SICP
+
+Make a separate chapter no?! 
+
+Firsts feelings are absolute fire.
+This is the exact "philosophy of programming" i was looking fo.
+
+After 40 pages, you already understand how substitution model works from a computer perspective.
+2 evaluations methodes, applicative-oirder/hnoirmal-order
+
+Interperter usually go for applicative, which can get stuck if the variables cant reach a point where they all are primnitives datas.
+
+And i probably finally unlock some understanding of recusion, especially with the comparison of recusrive versus iterative, 
+One leading to deferred operations and explosive growth for time
+THe other being way leaner.
+
+Inser ackerman 2 asset?!
+
+
 
 
 ---
