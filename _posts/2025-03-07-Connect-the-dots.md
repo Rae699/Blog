@@ -167,7 +167,7 @@ The mission now is clear:
 
 - 👉 [Start Here]({{ site.baseurl }}{% link start-here.md %}) to see why this whole blog exists.  
 - 👉 [Read my first post]({{ site.baseurl }}{% post_url 2025-03-03-my-first-post %}) to see where it all began.  
-- 👉 [Check out my deep dive on SICP]({{ site.baseurl }}{% post_url 2025-03-09-SICP \#1 %}) to follow my CS journey and learning path in parallel.  
+- 👉 [Check out my deep dive on SICP]({{ site.baseurl }}{% post_url 2025-03-09-SICP#1 %}) to follow my CS journey and learning path in parallel.  
 
 *Dots* is just one chapter. 
 
