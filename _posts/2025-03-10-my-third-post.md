@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Week 1 — Checkpoint"
-date: 2025-03-03
+date: 2023-03-10
 categories: cs 
 author: Remy
 description: "First checkpoint on my journey."

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Week 1 — From Zero to CS"
-date: 2025-03-03
+date: 2023-03-03
 categories: cs
 author: Remy
 description: "From real estate lawyer to AI-powered trading systems—my journey into Computer Science from zero."
