@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Plan: 24 Months to Mastery"
+title: "Week 1 — The Plan: 24 Months to Mastery"
 date: 2023-03-03
 categories: cs
 author: Remy
@@ -16,74 +16,71 @@ Over the next **24 months**, I'll be following a structured plan combining class
 This journey is meticulously planned to ensure a structured and comprehensive path to mastery. 
 It's a personal roadmap designed to keep me organized and focused on my goals.
 
+“This 24-month plan is designed to not only master core CS and AI but to meet the bar of systems design and algorithmic excellence required to operate at the scale of companies like Google.”
 
 ---
 
-## ⏳ Timeline — 24-Month Roadmap
+## 🗓️ Timeline & Curriculum
 
-| Timeframe | Focus |
-|-----------|-------|
-| **Months 1–3** | Python, Exercism, Basic DSA: arrays/strings/hashmaps. Start LeetCode. |
-| **Months 4–6** | Recursion, binary search, trees. Refactor my main project |
-| **Months 7–9** | Sorting, sliding window, two pointers, basic graphs. |
-| **Months 10–12** | Dynamic Programming intro, heaps, tries. Deliver 1 larger project (full stack using ai?) |
-| **Months 13–15** | Advanced graphs (Dijkstra, BFS/DFS patterns). LeetCode mediums+. |
-| **Months 16–18** | DP mastery, backtracking, bit manipulation. |
-| **Months 19–21** | System design, distributed systems intro. Leetcode Hard+.|
-| **Months 22–24** |Final project delivery. Enjoy life changing skills |
+| Timeframe                     | Focus                                                                                   |
+|-------------------------------|-----------------------------------------------------------------------------------------|
+| **March – Mid-May**           | Python (Exercism), The Missing Semester (bash), SICP (up to Chapter 4)                |
+| **Mid-May – Late July**       | CS:APP, early LeetCode, Exercism mastery                                               |
+| **August – September/October**| Algorithm Design Manual, deeper LeetCode, Maths for CS (side reading), Dots refactoring, OSTEP |
+| **October – December**        | Computer Networking, Thinking in Systems                                               |
+| **January – February**        | Designing Data-Intensive Applications (DDIA)                                           |
+| **March – May (Year 2)**      | C Programming: A Modern Approach + medium/hard LeetCode                               |
+| **Next 6 Months**             | AI Intro: AIMA, PRML, Deep Learning (paired with Andrew Ng), AI applied to Dots       |
+| **Final 6 Months**            | Polishing: LeetCode grind, systems reviews, eventually finishing SICP, GitHub showcase |
 
 
 ---
 
 ## 📚 Core CS Curriculum
-
-I'm following a **"classics-first"** approach, built around these foundational texts:
-
 - **Structure and Interpretation of Computer Programs (SICP)**
-- **Computer Systems: A Programmer's Perspective (CS:APP)**
-- **The Algorithm Design Manual** (Skiena)
+- **Computer Systems: A Programmer’s Perspective (CS:APP)**
+- **The Algorithm Design Manual (Skiena)**
 - **Computer Networking: A Top-Down Approach**
 - **Operating Systems: Three Easy Pieces (OSTEP)**
 - **Thinking in Systems**
-- **Cloud architecture patterns** 
 - **Designing Data-Intensive Applications (DDIA)**
-- **C Programming: A Modern Approach** 
+- **C Programming: A Modern Approach**
+- **Cloud Architecture Patterns**
 
-The goal is to master algorithms and push massively on systems, as the future is Cyborg, humans accelerated by AI, not Android.
+> **Goal:** Master algorithms and systems for real-time, adaptive trading systems.
 
 
 ---
 
 ## 🤖 AI Track (For Advanced Trading Systems)
-
-In parallel, I'll tackle AI and machine learning to build adaptive, intelligent trading systems:
-- **Artificial Intelligence: A Modern Approach** (Russell & Norvig)
-- **Pattern Recognition and Machine Learning** (Bishop)
-- **Deep Learning** (Goodfellow, Bengio, Courville)
-One of these:
-- **Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow** (Géron)
-- **Deep Learning with Python** (Chollet)
-- **Deep Learning for Coders with fastai & PyTorch** (Howard & Gugger)
+Once the core systems are solid:
+- **Artificial Intelligence: A Modern Approach (Russell & Norvig)**
+- **Pattern Recognition and Machine Learning (Bishop)**
+- **Deep Learning (Goodfellow, Bengio, Courville)**
+- **+ One of these for hands-on practice:**
+  - Hands-On Machine Learning (Géron)
+  - Deep Learning with Python (Chollet)
+  - Deep Learning for Coders (Howard & Gugger)
 
 
 ---
 
 ## 🏗️ Daily Routine (The Dots Discipline)
+Every day, without compromise:
+- ⌨️ **Typing Practice** — 20 min (Goal: >120 WPM)
+- 🐍 **Exercism (Python)** — 90 min (Goal: 30+ exercises/week)
+- 📖 **CS Readings** — 180 min (from the curriculum above)
+- 🛠️ **The Missing Semester** — 1 lesson/day
+- ⚡ **Bash & CLI scripting** — post-Missing Semester (Goal: fluency)
+- 🧠 **LeetCode, NeetCode** — algorithmic drills
+- 📊 **Dots Trading System** — ongoing development & refactoring
 
-Every day, without fail:
-
-- ⌨️ Typing practice — 20 min (Goal: > 120 WPM)
-- 🐍 Exercism (Python) — 90 min (Goal: >30 exercises per week)
-- 📖 CS Readings — 180 min
-- 🛠️ The Missing Semester of your CS education — 1 lesson/day
-- ⚡ Bash & CLI scripting — post-Missing Semester (Goal: Be fluent using cli)
-- 🧠 LeetCode, NeetCode, 
-- 📊 DOTS Trading system development & refactoring
+The mission: **become the Cyborg**, where human intuition and AI co-evolve through disciplined systems thinking, coding fluency, and algorithmic sharpness.
 
 
 ---
 
-## ⚙️ Current Projects
+## 🚧 Current Projects
 
 
 ### [Dots](https://github.com/Rae699/Dots)
@@ -115,11 +112,15 @@ A collaborative trading infrastructure with modular, plug-and-play strategies.
 - ✅ Commit to 8-hour deep work days.
 - ✅ Track wins, blockers, breakthroughs.
 
+
 ---
 
 ## 📌 Why This Exists
 
-To close the gap between:
+### To become the kind of engineer Google hires:
+A systems-minded, algorithmically sharp, AI-enabled builder who can design, optimize, and deploy robust, high-performance infrastructure.
+
+### To close the gap between:
 - **"I can hack it together."**  
 and  
 - **"I can build it properly."**
@@ -129,6 +130,7 @@ And to document the entire journey from beginner to builder to architect.
 Follow along, fork the repo, or reach out. 
 
 Let's build.
+
 
 ---
 
