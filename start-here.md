@@ -76,7 +76,7 @@ Not just passing the interview, but **being able to genuinely contribute at that
 The goal is to master algorithms and push massively on systems, as the future is Cyborg, humans accelerated by AI, not full-AI imho.
 
 ### 📚 Core CS
-1. [Structure and Interpretation of Computer Programs (SICP)]({{ site.baseurl }}{% post_url 2025-03-07-SICP-1 %})
+1. Structure and Interpretation of Computer Programs (SICP) - [Check here for my thoughts/impact of the book]({{ site.baseurl }}{% post_url 2025-03-07-SICP-1 %})
 2. Computer Systems: A Programmer's Perspective
 3. The Algorithm Design Manual
 4. Computer Networking: A Top-Down Approach
@@ -84,7 +84,7 @@ The goal is to master algorithms and push massively on systems, as the future is
 6. Thinking in Systems
 7. Cloud architecture patterns*
 8. Designing Data-Intensive Applications (DDIA)
-9. C Programming: A Modern Approach** 
+9. C Programming: A Modern Approach
 [Full Reading List]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})
 <br>
 

@@ -28,7 +28,7 @@ But now... it's time to scale *Dots* beyond what vibe coding can support.
 
 #### 🚀 **Total Lines of Code: 27,887**
 
-![Git Fame 27,887 LOC](git-fame-27887.png)
+![Git Fame 27,887 LOC]({{ site.baseurl }}/assets/git-fame-27887.png)
 
 ---
 
@@ -36,7 +36,7 @@ But now... it's time to scale *Dots* beyond what vibe coding can support.
 
 Tracked via **WakaTime**:  
 
-![WakaTime Dashboard](wakatime-dashboard.png)
+![WakaTime Dashboard]({{ site.baseurl }}/assets/wakatime-dashboard.png)
 
 
 ---
@@ -59,7 +59,7 @@ I completely **refactored it into a modular architecture** — **65 separate mod
 - Scale across assets and timeframes.
 - Maintain and debug specific features without breaking the entire system.
 
-![Dots Folder Structure](dots-src-organziation.png)
+![Dots Folder Structure]({{ site.baseurl }}/assets/dots-src-organization.png)
 
 Today, *Dots* is:
 - ✅ Screening all cryptocurrencies on Binance listed as perpetual.
@@ -77,7 +77,7 @@ That's the gap I'm here to close.
 
 ### 🧠 And what does AI say about *Dots*?
 
-![What AI Says About Dots](what-ai-says-about-the-dots.png)
+![What AI Says About Dots]({{ site.baseurl }}/assets/what-ai-says-about-the-dots.png)
 
 Apparently, I accidentally built something that looks like the work of a developer with **5–10 years of experience**.  
 That's flattering. But now it's time to **earn it for real**.
