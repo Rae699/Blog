@@ -19,9 +19,9 @@ A fully automated, multi-exchange **signal screener** scanning crypto markets ac
 
 It works.  
 It runs.  
-It’s already powerful.  
+It's already powerful.  
 
-But now... it’s time to scale *Dots* beyond what vibe coding can support.  
+But now... it's time to scale *Dots* beyond what vibe coding can support.  
 
 
 ## 📊 Proof of Work
@@ -69,8 +69,8 @@ Today, *Dots* is:
 - ✅ Modularized into **65 distinct modules**.
 - ✅ Fully automated, with thousands of requests running daily.
 
-And yet… despite building it, I still don’t fully understand how Dots works end to end.
-That’s the gap I’m here to close.
+And yet… despite building it, I still don't fully understand how Dots works end to end.
+That's the gap I'm here to close.
 
 
 ---
@@ -80,12 +80,12 @@ That’s the gap I’m here to close.
 ![What AI Says About Dots](what-ai-says-about-the-dots.png)
 
 Apparently, I accidentally built something that looks like the work of a developer with **5–10 years of experience**.  
-That’s flattering. But now it’s time to **earn it for real**.
+That's flattering. But now it's time to **earn it for real**.
 
 
 ---
 
-## 🔍 Where We’re Going  
+## 🔍 Where We're Going  
 
 Now I want *Dots* to do more:  
 Screen **80,000 stocks per day**, across **14 timeframes**, refreshing **multiple times a day**.
@@ -94,7 +94,7 @@ Which means:
 
 > **Billions of API calls. Billions of data points. Every single day.**
 
-This isn’t about just adding more power.  
+This isn't about just adding more power.  
 
 This requires **rethinking everything**:  
 - The architecture.  
@@ -109,7 +109,7 @@ And that starts with two key steps:
 
 ## Step 1 — Add **Tracing**
 
-Right now, *Dots* works… but I don’t know exactly why or how efficiently.  
+Right now, *Dots* works… but I don't know exactly why or how efficiently.  
 
 ### What I need:
 - Full visibility into every request, loop, and computation.
@@ -146,13 +146,13 @@ This is where **Computer Science** comes in.
 
 ## 🚀 Why This Blog Exists  
 
-This blog isn’t about showcasing some perfect system.  
-It’s about showing the real work:  
+This blog isn't about showcasing some perfect system.  
+It's about showing the real work:  
 The transition from **AI-assisted chaos** to **engineering mastery**.  
 From duct-taped prototypes to scalable, production-grade systems.
 
-I’m not here pretending to be a senior engineer.  
-I’m here documenting the climb — the moments where I don’t understand, the parts where I’m lost, and the breakthroughs that follow.
+I'm not here pretending to be a senior engineer.  
+I'm here documenting the climb — the moments where I don't understand, the parts where I'm lost, and the breakthroughs that follow.
 
 The mission now is clear:
 - Build real coding skills, from syntax to system design.
@@ -167,7 +167,7 @@ The mission now is clear:
 
 - 👉 [Start Here]({{ site.baseurl }}{% link start-here.md %}) to see why this whole blog exists.  
 - 👉 [Read my first post]({{ site.baseurl }}{% post_url 2025-03-03-my-first-post %}) to see where it all began.  
-- 👉 [Check out my deep dive on SICP]({{ site.baseurl }}{% post_url 2025-03-09-SICP %}) to follow my CS journey and learning path in parallel.  
+- 👉 [Check out my deep dive on SICP]({{ site.baseurl }}{% post_url 2025-03-09-SICP \#1 %}) to follow my CS journey and learning path in parallel.  
 
 *Dots* is just one chapter. 
 
@@ -180,7 +180,7 @@ But it's the chapter that's forcing me to level up, fast.
 
 An insane level-up arc incoming:  
 - Mapping the full architecture of *Dots*.  
-- Adding tracing and profiling to finally measure what’s happening under the hood.  
+- Adding tracing and profiling to finally measure what's happening under the hood.  
 - Hunting down and eliminating inefficiencies.  
 - Planning the first big refactors and optimization passes.  
 
