@@ -18,21 +18,6 @@ It's a personal roadmap designed to keep me organized and focused on my goals.
 
 “This 24-month plan is designed to not only master core CS and AI but to meet the bar of systems design and algorithmic excellence required to operate at the scale of companies like Google.”
 
----
-
-## 🗓️ Timeline & Curriculum
-
-| Timeframe                     | Focus                                                                                   |
-|-------------------------------|-----------------------------------------------------------------------------------------|
-| **March – Mid-May**           | Python (Exercism), The Missing Semester (bash), SICP (up to Chapter 4)                |
-| **Mid-May – Late July**       | CS:APP, early LeetCode, Exercism mastery                                               |
-| **August – September/October**| Algorithm Design Manual, deeper LeetCode, Maths for CS (side reading), Dots refactoring, OSTEP |
-| **October – December**        | Computer Networking, Thinking in Systems                                               |
-| **January – February**        | Designing Data-Intensive Applications (DDIA)                                           |
-| **March – May (Year 2)**      | C Programming: A Modern Approach + medium/hard LeetCode                               |
-| **Next 6 Months**             | AI Intro: AIMA, PRML, Deep Learning (paired with Andrew Ng), AI applied to Dots       |
-| **Final 6 Months**            | Polishing: LeetCode grind, systems reviews, eventually finishing SICP, GitHub showcase |
-
 
 ---
 
@@ -61,6 +46,22 @@ Once the core systems are solid:
   - Hands-On Machine Learning (Géron)
   - Deep Learning with Python (Chollet)
   - Deep Learning for Coders (Howard & Gugger)
+
+
+---
+
+## 🗓️ Timeline & Curriculum
+
+| Timeframe                     | Focus                                                                                   |
+|-------------------------------|-----------------------------------------------------------------------------------------|
+| **March – Mid-May**           | Python (Exercism), The Missing Semester (bash), SICP (up to Chapter 4)                |
+| **Mid-May – Late July**       | CS:APP, early LeetCode, Exercism mastery                                               |
+| **August – September/October**| Algorithm Design Manual, deeper LeetCode, Maths for CS (side reading), Dots refactoring, OSTEP |
+| **October – December**        | Computer Networking, Thinking in Systems                                               |
+| **January – February**        | Designing Data-Intensive Applications (DDIA)                                           |
+| **March – May (Year 2)**      | C Programming: A Modern Approach + medium/hard LeetCode                               |
+| **Next 6 Months**             | AI Intro: AIMA, PRML, Deep Learning (paired with Andrew Ng), AI applied to Dots       |
+| **Final 6 Months**            | Polishing: LeetCode grind, systems reviews, eventually finishing SICP, GitHub showcase |
 
 
 ---
