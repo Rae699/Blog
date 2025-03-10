@@ -16,7 +16,7 @@ Alright, time to log the first checkpoint.
 
 ## ✅ Achievements:
 
-### ~20 exercises completed on Exercism.  
+### ~15 exercises completed on Exercism.  
 Honestly, that's a cool milestone. I can feel the muscle growing. 
 But here's the truth: the code still doesn't quite feel like mine. I'm getting the jobs done, but there are these silly mistakes sneaking in—tiny syntax slips, misplaced colons, off-by-one things that shouldn't really happen. 
 It's like I'm holding the steering wheel but still checking the GPS every five seconds.
@@ -36,8 +36,8 @@ I need to get a solid grasp on the built-in functions and methods for python, na
 
 New method and goal set:
 - Master the documentation of the exercises I have completed.
-- Thoroughly read and internalize the documentation of upcoming exercises.
-- Only after becoming familiar with the documentation, attempt to solve the related exercises. This approach should be more enjoyable and build confidence, not disappointment.
+- Thoroughly read then internalize the documentation of upcoming exercises.
+- Only after becoming familiar with the documentation, attempt to solve the related exercises. => This approach should be more enjoyable and build confidence.
 - Complete 2 exercises per day until reaching 50, then reduce to 1 exercise per day. This way, I'll finish Exercism in approximately three and a half months.
 
 
@@ -59,23 +59,23 @@ New goal set:
 
 ## 🔜 SICP
 
-Make a separate chapter no?! 
+Let's make this a separate chapter, shall we? [Check here for my thoughts/impact of the book]({{ site.baseurl }}{% post_url 2025-03-07-SICP-1 %})
 
-Firsts feelings are absolute fire.
-This is the exact "philosophy of programming" i was looking fo.
+My initial impressions are absolutely **fantastic**.
+This is precisely the "philosophy of programming" I've been searching for.
 
-After 40 pages, you already understand how substitution model works from a computer perspective.
-2 evaluations methodes, applicative-oirder/hnoirmal-order
+After just 40 pages, I already grasp how the substitution model works from a computer's perspective.
+There are two evaluation methods: applicative-order and normal-order.
 
-Interperter usually go for applicative, which can get stuck if the variables cant reach a point where they all are primnitives datas.
+I think I've finally unlocked some understanding of recursion, especially with the comparison between recursive and iterative processes.
+One leads to deferred operations and exponential time growth, while the other is much more efficient.
 
-And i probably finally unlock some understanding of recusion, especially with the comparison of recusrive versus iterative, 
-One leading to deferred operations and explosive growth for time
-THe other being way leaner.
+Interpreters typically use applicative-order, which can get stuck if the variables don't resolve to primitive data types.
 
-Inser ackerman 2 asset?!
+Nothing better than Ackermann's function to understand all these concepts properly as this gives the perfect example of fast it can grow... 
 
-
+#### Growth
+![Growth]({{ site.baseurl }}/assets/growth.png)
 
 
 ---
@@ -93,7 +93,7 @@ So once the fundamentals click, I know there's this whole toolkit waiting to be 
 
 ---
 
-## - Dots + Sentinelle Updates
+## 📻 Dots + Sentinelle Updates
 
 The vibe-coding journey continues, and while the critical thinking piece is still a work in progress, the learning curve is exhilarating. 
 With AI as my co-pilot, it's like having a seasoned dev' whispering insights in my ear all day long.
@@ -128,19 +128,12 @@ Next step: Adding more letters at 80 WPM, then aiming for 120 WPM.
 
 ## 📚 Elsewhere on the grind:
 
-**SICP** – Currently, page 75
-Working through the exercises.  
-
-And yeah... I won't lie, Lisp is not my favorite flavor.  
-Would 100% prefer this in Python. But the thinking it forces? Gold.  
-There's a level of reasoning in there that's making me way sharper, even if the syntax feels like wearing someone else's shoes.
-
 **Missing Semester** – Knocked out 4 lessons.  
 Terminal, git, bash, vim... All the little things that will make me dangerous in a shell.  
 These are the tools that remove friction from everything else. 
 No complaints. 
 
-Enjoying the journey.
+Enjoying the journey but i will come back to Vim later on...
 
 
 ---

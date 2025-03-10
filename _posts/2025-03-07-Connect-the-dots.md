@@ -63,7 +63,7 @@ I completely **refactored it into a modular architecture** — **65 separate mod
 
 Today, *Dots* is:
 - ✅ Screening all cryptocurrencies on Binance listed as perpetual.
-- ✅ Running multiple custom strategies (RSI divergences, relative strength, trendlines, etc.).
+- ✅ Running multiple custom strategies (RSI divergences, relative strength, long term/mid term pullback entries, etc.).
 - ✅ Handling multi-timeframe analysis (up to **14 per asset**).
 - ✅ Outputting real-time, visual HTML screeners.
 - ✅ Modularized into **65 distinct modules**.
@@ -80,7 +80,9 @@ That's the gap I'm here to close.
 ![What AI Says About Dots]({{ site.baseurl }}/assets/what-ai-says-about-the-dots.png)
 
 Apparently, I accidentally built something that looks like the work of a developer with **5–10 years of experience**.  
-That's flattering. But now it's time to **earn it for real**.
+That's flattering. 
+
+But now it's time to **earn it for real**.
 
 
 ---
@@ -151,7 +153,7 @@ It's about showing the real work:
 The transition from **AI-assisted chaos** to **engineering mastery**.  
 From duct-taped prototypes to scalable, production-grade systems.
 
-I'm not here pretending to be a senior engineer.  
+I'm not here pretending to be a senior engineer.  I am  still a noob.
 I'm here documenting the climb — the moments where I don't understand, the parts where I'm lost, and the breakthroughs that follow.
 
 The mission now is clear:
