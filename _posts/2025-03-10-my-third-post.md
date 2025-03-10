@@ -111,9 +111,22 @@ As knowledge becomes more accessible, the ability to think critically and make d
 This is the path forward.
 
 
+
 ---
 
-## ⌨️ Typing Speed
+## 📚 Elsewhere on the grind:
+
+**Missing Semester of your CS** 
+
+Knocked out 4 lessons.  
+
+Terminal * 2, bash, vim... All the little things that will make me dangerous in a shell.  
+These are the tools that remove friction from everything else. 
+No complaints. 
+
+Enjoying the journey but i will come back to Vim later on...
+
+### ⌨️ Typing Speed
 
 **80 WPM achieved.**  
 For a few letters only.
@@ -123,17 +136,11 @@ But hey, when the ideas are flowing, might as well have the hands to match.
 
 Next step: Adding more letters at 80 WPM, then aiming for 120 WPM. 
 
+### - High School Maths
+I've nearly wrapped up revisiting the high school and secondary school math curriculum, focusing on the key topics relevant to CS.
+It's gratifying to feel like I'm back on track, almost at the level I was 10-15 years ago.
 
----
-
-## 📚 Elsewhere on the grind:
-
-**Missing Semester** – Knocked out 4 lessons.  
-Terminal, git, bash, vim... All the little things that will make me dangerous in a shell.  
-These are the tools that remove friction from everything else. 
-No complaints. 
-
-Enjoying the journey but i will come back to Vim later on...
+Now, I'm starting diving into Maths for CS, tackling problems on the side, as per the SICP requirements to solve some exercises. 
 
 
 ---
