@@ -67,7 +67,7 @@ Once the core systems are solid:
 ---
 
 ## 🏗️ Daily Routine (The Dots Discipline)
-Every day, without compromise:
+Every day, without compromise, i will mix some of these to grind hard:
 - ⌨️ **Typing Practice** — 20 min (Goal: >120 WPM)
 - 🐍 **Exercism (Python)** — 90 min (Goal: 30+ exercises/week)
 - 📖 **CS Readings** — 180 min (from the curriculum above)
