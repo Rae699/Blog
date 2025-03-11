@@ -106,7 +106,7 @@ The keys to problems are:
 - Small inputs lead to massive recursion depth.  
 - Demonstrates why understanding recursion *matters*—it's not just a coding trick, but a fundamental computational concept.  
 
-![Growth_of_Functions]({{ site.baseurl }}/assets/Growth_of_f_g_h_k_from_the_Ackermann_Function_Examples.png)
+![Growth_of_Functions]({{ site.baseurl }}/assets/growth_of_f_g_h_k_from_the_ackermann_function_examples.png)
 
 
 ---
@@ -255,7 +255,7 @@ To visualize this, let's look at an example.
 The difference between polynomial and exponential growth is *brutal*. Even if a polynomial function (\( O(n^2) \)) starts with a huge constant overhead, an exponential function (\( O(2^n) \)) will eventually overtake it—fast.  
 
 Take a look:  
-![Complexity_Classical_Examples]({{ site.baseurl }}/assets/Complexity_Classical_Examples.png)  
+![Complexity_Classical_Examples]({{ site.baseurl }}/assets/complexity_classical_examples.png)  
 
 At first, \( O(n^2) \) appears to be growing at a steady rate. But as \( n \) increases, \( O(2^n) \) explodes.  
 
@@ -356,6 +356,7 @@ While complexity theory tells us that constants don't matter *asymptotically*, i
 ##### **The Complexity Theory vs. Practical Performance Tradeoff**  
 
 TO REVIEW LATER
+
 | **Aspect**           | **Complexity Theory (Big-O)** | **Practical Performance** |
 |----------------------|--------------------------------|---------------------------|
 | Constants Matter?    | No, ignored in asymptotic analysis | Yes, for small inputs |
