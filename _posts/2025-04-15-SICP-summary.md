@@ -19,10 +19,10 @@ Before SICP, I saw programming as a set of instructions to be executed where syn
 Now, I see it as a process—an unfolding sequence of transformations driven by underlying mathematical principles. 
 
 The impact of SICP on the thought process is profound:
-1.	It teaches abstraction deeply. You don’t just write functions—you learn to create powerful abstractions, thinking in terms of layers and compositions. That’s a crucial skill for designing scalable systems.
+1.	It teaches abstraction deeply. You don't just write functions—you learn to create powerful abstractions, thinking in terms of layers and compositions. That's a crucial skill for designing scalable systems.
 2.	It rewires your thinking to focus on expressiveness over syntax. Unlike books that focus on syntax-heavy programming, SICP forces you to think in terms of mathematical rigor and expressive models of computation.
 3.	It reveals deep principles of software engineering. Recursion, higher-order functions, data abstraction, modularity, and interpreters—all central to writing robust software—are taught in an elegant way.
-4.  It teaches computation as a craft. You’re not just solving problems, you’re designing elegant, efficient solutions using minimal yet expressive constructs.
+4.  It teaches computation as a craft. You're not just solving problems, you're designing elegant, efficient solutions using minimal yet expressive constructs.
 5.	It has shaped legendary engineers. It was the core MIT curriculum for decades, influencing the design of Lisp, Scheme, and many modern functional programming paradigms.
 
 
@@ -79,7 +79,7 @@ More to come.
 ### **The Substitution Model of Evaluation**  
 - Computation unfolds step by step, just like an interpreter processes code.  
 - Two primary evaluation strategies are used:  
-  - **Applicative-order evaluation** (evaluate all arguments (= until encountering primitives only) before applying).  
+  - **Applicative-order evaluation** (evaluate all arguments immediately).  
   - **Normal-order evaluation** (delay evaluation as long as possible).  
 
 
@@ -106,7 +106,7 @@ The keys to problems are:
 - Small inputs lead to massive recursion depth.  
 - Demonstrates why understanding recursion *matters*—it's not just a coding trick, but a fundamental computational concept.  
 
-![Growth of Functions]({{ site.baseurl }}/assets/growth-of-f-g-h.png)
+![Growth_of_Functions]({{ site.baseurl }}/assets/Growth_of_f_g_h_k_from_the_Ackermann_Function_Examples.png)
 
 
 ---
@@ -124,7 +124,7 @@ This will show why normal-order recursion can lead to **stack explosion** and un
 
 #### **The Problem: Computing GCD Using Normal-Order Evaluation**
 
-Given Euclid’s algorithm for the greatest common divisor:
+Given Euclid's algorithm for the greatest common divisor:
 
 ```scheme
 (define (gcd a b)
@@ -138,7 +138,7 @@ Instead of computing `remainder(a, b)` before making the recursive call, **norma
 
 #### **Breaking Down Normal-Order Expansion**
 
-Let’s go through the expansion step by step using `gcd(a, b)`. Each step **substitutes** the remainder operation instead of evaluating it, causing a deep nesting effect.
+Let's go through the expansion step by step using `gcd(a, b)`. Each step **substitutes** the remainder operation instead of evaluating it, causing a deep nesting effect.
 
 ```
 Step 1: First Expansion
@@ -180,7 +180,7 @@ At this point, the **call stack has exploded**, containing deeply nested express
 
 #### **What Happens in the Call Stack?**
 
-To visualize the problem, let’s break it down into **expansion** and **unwinding** phases.
+To visualize the problem, let's break it down into **expansion** and **unwinding** phases.
 
 ##### **Call Stack (Expanding Phase)**
 ```
@@ -255,13 +255,11 @@ To visualize this, let's look at an example.
 The difference between polynomial and exponential growth is *brutal*. Even if a polynomial function (\( O(n^2) \)) starts with a huge constant overhead, an exponential function (\( O(2^n) \)) will eventually overtake it—fast.  
 
 Take a look:  
-![Exponential Growth O(2^n) vs Quadratic Growth O(n^2)]({{ site.baseurl }}/assets/complexity_classical_examples.png)  
+![Complexity_Classical_Examples]({{ site.baseurl }}/assets/Complexity_Classical_Examples.png)  
 
 At first, \( O(n^2) \) appears to be growing at a steady rate. But as \( n \) increases, \( O(2^n) \) explodes.  
 
 This is why algorithms with exponential complexity are **practically unusable for large inputs**. No matter how optimized, they will always be outperformed by even a poorly written polynomial-time solution.  
-
-![Exponential Growth O(2^n) vs Quadratic Growth O(n^2)]({{ site.baseurl }}/assets/complexity_classical_examples.png)
 
 
 ##### **2. Linear Growth and Constant Multiples**  
@@ -286,7 +284,7 @@ For example:
 - \( O(6n + 10) \) grows faster than \( O(n) \) for small inputs.  
 - But if we compare \( O(n) \) to \( O(n^2) \), \( O(n^2) \) will always win eventually—even if it starts 1,000 times slower.  
 
-![Growth of Different Complexities]({{ site.baseurl }}/assets/growth_of_different_complexities.png)  
+![Growth_of_Different_Complexities]({{ site.baseurl }}/assets/Growth_of_Different_Complexity_Classes.png)  
 
 Remember, a function could be classified as:
 - **Linear**: \( f(x) = ax \)
