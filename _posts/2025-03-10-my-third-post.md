@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week 1 — Checkpoint"
+title: "Checkpoint #1"
 date: 2025-03-10
 categories: cs 
 author: Remy
