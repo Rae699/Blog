@@ -15,9 +15,15 @@ comments: false
 
 Most programming books teach syntax, frameworks, or best practices. *Structure and Interpretation of Computer Programs* (SICP) does something entirely different—it rewires how you *think*.  
 
-Before SICP, I saw programming as a set of instructions to be executed. Now, I see it as a process—an unfolding sequence of transformations driven by underlying mathematical principles. This is the difference between knowing how to code and understanding *computation itself*.  
+Before SICP, I saw programming as a set of instructions to be executed where syntax was almost the most important thing.
+Now, I see it as a process—an unfolding sequence of transformations driven by underlying mathematical principles. 
 
-SICP doesn't just explain concepts; it forces you to *internalize* them through precise, layered exercises. Concepts I once skimmed over—like recursion, evaluation strategies, and process growth—are now concrete, deeply understood mechanics.  
+The impact of SICP on the thought process is profound:
+1.	It teaches abstraction deeply. You don’t just write functions—you learn to create powerful abstractions, thinking in terms of layers and compositions. That’s a crucial skill for designing scalable systems.
+2.	It rewires your thinking to focus on expressiveness over syntax. Unlike books that focus on syntax-heavy programming, SICP forces you to think in terms of mathematical rigor and expressive models of computation.
+3.	It reveals deep principles of software engineering. Recursion, higher-order functions, data abstraction, modularity, and interpreters—all central to writing robust software—are taught in an elegant way.
+4.  It teaches computation as a craft. You’re not just solving problems, you’re designing elegant, efficient solutions using minimal yet expressive constructs.
+5.	It has shaped legendary engineers. It was the core MIT curriculum for decades, influencing the design of Lisp, Scheme, and many modern functional programming paradigms.
 
 
 ---
@@ -102,12 +108,6 @@ The keys to problems are:
 
 ![Growth of Functions]({{ site.baseurl }}/assets/growth-of-f-g-h.png)
 
-
-
-#**********************************************************************
-#**********************************************************************
-#**********************************************************************
-#**********************************************************************
 
 ---
 
@@ -367,9 +367,6 @@ TO REVIEW LATER
 
 
 ---
-
-
-
 
 ### **Closing Thoughts**  
 
