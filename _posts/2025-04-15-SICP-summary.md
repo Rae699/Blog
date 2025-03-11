@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SICP #10 — Critical thinking"
-date: 2023-03-07
+date: 2025-03-07
 categories: cs
 author: Remy
 description: "SICP #10"

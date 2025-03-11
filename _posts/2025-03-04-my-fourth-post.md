@@ -1,7 +1,7 @@
 ---
 layout: post  
 title: "Trading Through the Storm #1"  
-date: 2023-03-04  
+date: 2025-03-04  
 categories: markets  
 author: Remy  
 description: "While grinding CS, I'm navigating market turbulence. Here's my analysis of current market conditions and how I'm maintaining my edge."  

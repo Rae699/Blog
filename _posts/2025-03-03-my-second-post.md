@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Plan: 24 Months to Mastery"
-date: 2023-03-03
+date: 2025-03-03
 categories: cs
 author: Remy
 description: "The structured 2-year plan to go from beginner to systems builder, with a focus on CS fundamentals, trading systems, and AI."

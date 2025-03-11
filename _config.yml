@@ -12,6 +12,7 @@ linkedin_username: remy-charras
 minima:
   date_format: "%b %-d, %Y"
   show_excerpts: true
+  future: true
 
 # Build settings
 markdown: kramdown
