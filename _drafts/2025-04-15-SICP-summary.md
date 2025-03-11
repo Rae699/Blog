@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SICP #10 — Critical thinking"
+title: "SICP #10 — Finale thoughts"
 date: 2025-03-07
 categories: cs
 author: Remy
