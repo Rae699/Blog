@@ -52,16 +52,18 @@ Once the core systems are solid:
 
 ## 🗓️ Timeline & Curriculum
 
-| Timeframe                     | Focus                                                                                   |
-|-------------------------------|-----------------------------------------------------------------------------------------|
-| **March – Mid-May**           | Python (Exercism), The Missing Semester (bash), SICP (up to Chapter 4)                |
-| **Mid-May – Late July**       | CS:APP, early LeetCode, Exercism mastery                                               |
-| **August – September/October**| Algorithm Design Manual, deeper LeetCode, Maths for CS (side reading), Dots refactoring, OSTEP |
-| **October – December**        | Computer Networking, Thinking in Systems                                               |
-| **January – February**        | Designing Data-Intensive Applications (DDIA)                                           |
-| **March – May (Year 2)**      | C Programming: A Modern Approach + medium/hard LeetCode                               |
-| **Next 6 Months**             | AI Intro: AIMA, PRML, Deep Learning (paired with Andrew Ng), AI applied to Dots       |
-| **Final 6 Months**            | Polishing: LeetCode grind, systems reviews, eventually finishing SICP, GitHub showcase |
+### 🗓️ Timeline & Curriculum
+
+| Timeframe               | Focus                                                                 | Difficulty |
+|-------------------------|----------------------------------------------------------------------|------------|
+| **March – Mid-May**      | Python (Exercism), The Missing Semester (bash), SICP (up to Chapter 4) | ⭐⭐⭐⭐ (SICP) |
+| **Mid-May – Late July**  | CS:APP, early LeetCode, Exercism mastery                             | ⭐⭐⭐⭐ (CS:APP) |
+| **August – Sep/Oct**     | Algorithm Design Manual, deeper LeetCode, Maths for CS (side reading), Dots refactoring, OSTEP | ⭐⭐⭐⭐ (ADM, OSTEP) |
+| **October – December**   | Computer Networking, Thinking in Systems                            | ⭐⭐⭐ (Computer Networking), ⭐⭐ (Thinking in Systems) |
+| **January – February**   | Designing Data-Intensive Applications (DDIA)                        | ⭐⭐⭐⭐ |
+| **March – May (Year 2)** | C Programming: A Modern Approach + medium/hard LeetCode            | ⭐⭐⭐⭐ (C Programming) |
+| **Next 6 Months**        | AI Intro: AIMA, PRML, Deep Learning (paired with Andrew Ng), AI applied to Dots | ⭐⭐⭐⭐⭐ (PRML), ⭐⭐⭐⭐ (AIMA, Deep Learning) |
+| **Final 6 Months**       | Polishing: LeetCode grind, systems reviews, eventually finishing SICP, GitHub showcase | ⭐⭐⭐⭐⭐ (SICP final chapters) |
 
 
 ---

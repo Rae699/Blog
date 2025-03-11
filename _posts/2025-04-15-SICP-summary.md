@@ -255,7 +255,7 @@ To visualize this, let's look at an example.
 The difference between polynomial and exponential growth is *brutal*. Even if a polynomial function (\( O(n^2) \)) starts with a huge constant overhead, an exponential function (\( O(2^n) \)) will eventually overtake it—fast.  
 
 Take a look:  
-![Complexity_Classical_Examples]({{ site.baseurl }}/assets/complexity_classical_examples.png)  
+![Complexity_Classical_Examples]({{ site.baseurl }}/assets/complexity_classical_examples.jpg)  
 
 At first, \( O(n^2) \) appears to be growing at a steady rate. But as \( n \) increases, \( O(2^n) \) explodes.  
 
