@@ -353,16 +353,124 @@ While complexity theory tells us that constants don't matter *asymptotically*, i
 
 ---
 
-##### **The Complexity Theory vs. Practical Performance Tradeoff**  
+### **Understanding Higher-Order and Lower-Order Functions**
 
-TO REVIEW LATER
+A key insight from SICP is how to structure programs using higher-order functions (functions that take other functions as arguments) and lower-order functions (functions that do the actual computation). 
+This abstraction allows for modular, reusable code that is both elegant and efficient.
 
-| **Aspect**           | **Complexity Theory (Big-O)** | **Practical Performance** |
-|----------------------|--------------------------------|---------------------------|
-| Constants Matter?    | No, ignored in asymptotic analysis | Yes, for small inputs |
-| Focus               | Growth rate as (n \to \infty) | Execution time for realistic input sizes |
-| Example             | \( O(n) \) vs. \( O(n^2) \) → Always prefer \( O(n) \) | A poorly optimized \( O(n) \) function might be slower than a well-tuned \( O(n^2) \) one for small \( n \) |
-| Goal                | Identify long-term scaling behavior | Optimize real-world execution time |
+A higher-order function is a function that:
+	1.	Takes another function as an argument.
+	2.	Returns a function as a result (optional, but common).
+
+We’ll create a higher-order function that applies a given operation to a range of numbers.
+
+Let’s say we want to sum or multiply numbers from a to b. We’ll create a general higher-order function that takes:
+	•	A function (operation) that defines what to do with each number.
+	•	A starting number (a).
+	•	An ending number (b).
+
+#### Higher-Order Function: apply_operation
+```
+def apply_operation(operation, a, b):
+    result = 1  # Start with 1 for multiplication
+    for i in range(a, b + 1):
+        result = operation(result, i)
+    return result
+```
+
+#### The Lower-Order Functions
+
+The lower-order does the actual computation.
+Hence, let's define a lower-order function that specify what operation to perform.
+```
+def add(x, y):
+    return x + y
+
+def multiply(x, y):
+    return x * y
+```
+
+#### Using the higher-order
+
+Now we can call apply_operation with different lower-order functions:
+```
+# Sum of numbers from 1 to 5
+sum_result = apply_operation(add, 1, 5)  # 1 + 2 + 3 + 4 + 5 = 15
+print("Sum:", sum_result)
+
+# Product of numbers from 1 to 5 (Factorial of 5)
+product_result = apply_operation(multiply, 1, 5)  # 1 * 2 * 3 * 4 * 5 = 120
+print("Product:", product_result)
+```
+
+```
+Finale output will be:
+Sum: 15
+Product: 120
+```
+
+#### What's happening?
+
+It is simple:
+	1.	We call apply_operation(add, 1, 5).
+	•	It loops through 1 to 5 and applies add(x, y), accumulating the sum.
+	2.	We call apply_operation(multiply, 1, 5).
+	•	It loops through 1 to 5 and applies multiply(x, y), accumulating the product.
+
+It is important because:
+✅ Code Reusability → We can use apply_operation for many different operations.
+✅ Clear Abstraction → Separates “what to do” (add, multiply) from “how to iterate” (apply_operation).
+✅ Scalability → We can easily add new operations without rewriting the logic.
+
+
+#### Going a little bit further: General Logic of product Function
+
+We define a general function, product, that computes the product of values between a lower bound a and an upper bound b, applying a function f to each value. 
+It also takes a step function next_func to determine how the sequence progresses.
+
+- f is a placeholder function that represents the transformation applied to each value.
+- a is the starting (lower bound) value.
+- next_func is a function that defines how we move to the next step, often maintaining an invariant in an iterative process.
+- b is the upper bound (stopping condition).
+
+Thus, the end-user calls a higher-order function, which in turn invokes a lower-order function to perform the actual computation.
+
+```
+# Recursive version
+def product_recursive(f, a, next_func, b):
+    if a > b:
+        return 1  # Base case: return multiplicative identity
+    return f(a) * product_recursive(f, next_func(a), next_func, b)
+
+# Iterative version (preferred for efficiency)
+def product_iterative(f, a, next_func, b):
+    result = 1
+    while a <= b:
+        result *= f(a)
+        a = next_func(a)
+    return result
+```
+
+#### Using product to Compute Factorial
+A lower-order function implements a specific computation using product. To compute factorial, we set f(x) = x and next_func(x) = x + 1:
+```
+# Recursive factorial
+def factorial_recursive(n):
+    return product_recursive(lambda x: x, 1, lambda x: x + 1, n)
+
+# Iterative factorial (better for large numbers)
+def factorial_iterative(n):
+    return product_iterative(lambda x: x, 1, lambda x: x + 1, n)
+```
+
+#### Execution Flow When Calling These Functions
+
+The user calls factorial_iterative(5):
+- This invokes product_iterative(lambda x: x, 1, lambda x: x + 1, 5).
+- product_iterative loops through numbers 1 to 5, multiplying them together.
+- The final result 120 is returned.
+
+This structured approach ensures that we can reuse product for different computations, improving code clarity and efficiency—one of the key lessons from SICP. 🚀
 
 
 ---

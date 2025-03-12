@@ -52,7 +52,6 @@ Once the core systems are solid:
 
 ## 🗓️ Timeline & Curriculum
 
-### 🗓️ Timeline & Curriculum
 
 | Timeframe               | Focus                                                                 | Difficulty |
 |-------------------------|----------------------------------------------------------------------|------------|
