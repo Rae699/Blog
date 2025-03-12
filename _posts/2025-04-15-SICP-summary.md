@@ -255,7 +255,7 @@ To visualize this, let's look at an example.
 The difference between polynomial and exponential growth is *brutal*. Even if a polynomial function (\( O(n^2) \)) starts with a huge constant overhead, an exponential function (\( O(2^n) \)) will eventually overtake it—fast.  
 
 Take a look:  
-![Complexity_Classical_Examples]({{ site.baseurl }}/assets/complexity_classical_examples.jpg)  
+![complexity_classical_examples]({{ site.baseurl }}/assets/complexity_classical_examples.jpg)  
 
 At first, \( O(n^2) \) appears to be growing at a steady rate. But as \( n \) increases, \( O(2^n) \) explodes.  
 
@@ -343,15 +343,15 @@ In terms of asymptotic analysis (Big O notation), here's how we analyze complexi
 
 Remember: Big O notation gives us an upper bound on the growth rate of an algorithm's resource usage (usually time or space) relative to input size. It helps us make informed decisions about algorithm selection and optimization.
 
-
----
-
-##### **Why This Matters in Practice**  
+##### **3. Why This Matters in Practice**  
 
 While complexity theory tells us that constants don't matter *asymptotically*, in real-world applications, they sometimes do.  
 
 - If two algorithms have the same Big-O complexity, **the one with the smaller constant factor may still be preferable in practice** (e.g., an \( O(n) \) algorithm with a huge overhead might be slower than an \( O(n \log n) \) one for practical input sizes).  
 - However, when input sizes grow large enough, **only the order of growth matters**. A well-optimized \( O(n^2) \) algorithm will eventually lose to even a poorly optimized \( O(n \log n) \) algorithm.  
+
+
+---
 
 ##### **The Complexity Theory vs. Practical Performance Tradeoff**  
 
@@ -360,7 +360,7 @@ TO REVIEW LATER
 | **Aspect**           | **Complexity Theory (Big-O)** | **Practical Performance** |
 |----------------------|--------------------------------|---------------------------|
 | Constants Matter?    | No, ignored in asymptotic analysis | Yes, for small inputs |
-| Focus               | Growth rate as \( n \to \infty \) | Execution time for realistic input sizes |
+| Focus               | Growth rate as (n \to \infty) | Execution time for realistic input sizes |
 | Example             | \( O(n) \) vs. \( O(n^2) \) → Always prefer \( O(n) \) | A poorly optimized \( O(n) \) function might be slower than a well-tuned \( O(n^2) \) one for small \( n \) |
 | Goal                | Identify long-term scaling behavior | Optimize real-world execution time |
 
