@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The journey: From Zero to CS"
+title: "CS - The journey: From Zero to CS"
 date: 2025-03-03
 categories: cs
 author: Remy

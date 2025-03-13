@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Connect the Dots #1"
+title: "PROJECT - Connect the Dots #1"
 date: 2025-03-07
 categories: cs 
 author: Remy
@@ -212,7 +212,8 @@ An insane level-up arc incoming:
 	•	Making it bulletproof → Unit tests, end-to-end validation, and failure handling.
 	•	Peering under the hood → Tracing, profiling, and benchmarking real performance.
 	•	Decision-making on bottlenecks → Exposing inefficiencies and optimizing execution paths while discussing trade-offs.
-
+	•	Full-stack with auth
+	•	Polishing: Documentation, ensuring everything including the smallest details are all working smooth.
 
 This is where vibe coding ends.  
 This is where real engineering begins.  

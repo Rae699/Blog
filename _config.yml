@@ -22,7 +22,8 @@ plugins:
 
 # Header pages
 header_pages:
-  - start-here.md
+  - table-of-contents.md
   - about.md
+  - start-here.md
 
 

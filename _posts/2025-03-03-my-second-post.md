@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Plan: 24 Months to Mastery"
+title: "CS - The Plan: 24 Months to Mastery"
 date: 2025-03-03
 categories: cs
 author: Remy
@@ -16,7 +16,7 @@ Over the next **24 months**, I'll be following a structured plan combining class
 This journey is meticulously planned to ensure a structured and comprehensive path to mastery. 
 It's a personal roadmap designed to keep me organized and focused on my goals.
 
-“This 24-month plan is designed to not only master core CS and AI but to meet the bar of systems design and algorithmic excellence required to operate at the scale of companies like Google.”
+*“This 24-month plan is designed to not only master core CS and AI but to meet the bar of systems design and algorithmic excellence required to operate at the scale of companies like Google.”*
 
 
 ---
@@ -69,7 +69,7 @@ Once the core systems are solid:
 
 ## 🏗️ Daily Routine (The Dots Discipline)
 Every day, without compromise, i will mix some of these to grind hard:
-- ⌨️ **Typing Practice** — 20 min (Goal: >120 WPM)
+- ⌨️ **Typing Practice** — 15 min (Goal: >120 WPM)
 - 🐍 **Exercism (Python)** — 90 min (Goal: 30+ exercises/week)
 - 📖 **CS Readings** — 180 min (from the curriculum above)
 - 🛠️ **The Missing Semester** — 1 lesson/day

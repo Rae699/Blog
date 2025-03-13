@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "Trading Through the Storm #1"  
+title: "OPINION - Trading Through the Storm #1"  
 date: 2025-03-04  
 categories: markets  
 author: Remy  
