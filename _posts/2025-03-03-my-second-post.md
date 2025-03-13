@@ -23,18 +23,19 @@ It's a personal roadmap designed to keep me organized and focused on my goals.
 
 ## 📚 Core CS Curriculum
 - **Structure and Interpretation of Computer Programs (SICP)**: Focuses on programming paradigms, recursion, and functional programming.
-- **Computer Systems: A Programmer’s Perspective (CS:APP)**: Delves into low-level programming, memory, assembly, and linking.
+- **Computer Systems: A Programmer's Perspective (CS:APP)**: Delves into low-level programming, memory, assembly, and linking.
 - **The Algorithm Design Manual (Skiena)**: Concentrates on algorithms, data structures, and problem-solving techniques.
 - **Operating Systems: Three Easy Pieces (OSTEP)**: Covers memory, scheduling, concurrency, processes, and virtual memory.
 - **Computer Networking: A Top-Down Approach**: Discusses TCP/IP, HTTP, routing, security, and distributed networking.
 - **Thinking in Systems (Meadows)**: Provides insights into big-picture system design and architecture.
 - **Designing Data-Intensive Applications (DDIA)**: Explores distributed data, scalability, and real-time computing.
 - **Reading in Database**: Focuses on database internals, including indexes, transactions, and query optimization.
+- **Fluent Python**: This is a side constant reading that I will refer to every day to enhance my understanding of Python's idiomatic constructs and advanced features.
 - **C Programming: A Modern Approach**: Emphasizes low-level memory management, pointers, and system programming.
 - **Cloud Architecture Patterns**: Examines distributed AI applications and scalable systems.
+-	**Introduction to the Theory of Computation**: Only Ch. 1-6, light Ch. 7-9: Covers automata & complexity for deeper CS knowledge.
+-	**Computational Complexity**: Only Part I & II.
 
-
----
 
 ## 🤖 AI Track (For Advanced Trading Systems)
 Once the core systems are solid:
@@ -54,14 +55,15 @@ Once the core systems are solid:
 
 | Timeframe               | Focus                                                                 | Difficulty |
 |-------------------------|----------------------------------------------------------------------|------------|
-| **March – Mid-May**      | Python (Exercism), The Missing Semester (bash), SICP (up to Chapter 4) | ⭐⭐⭐⭐ (SICP) |
-| **Mid-May – Late July**  | CS:APP, early LeetCode, Exercism mastery                             | ⭐⭐⭐⭐ (CS:APP) |
-| **August – Sep/Oct**     | Algorithm Design Manual, deeper LeetCode, Maths for CS (side reading), Dots refactoring, OSTEP | ⭐⭐⭐⭐ (ADM, OSTEP) |
-| **October – December**   | Computer Networking, Thinking in Systems                            | ⭐⭐⭐ (Computer Networking), ⭐⭐ (Thinking in Systems) |
-| **January – February**   | Designing Data-Intensive Applications (DDIA)                        | ⭐⭐⭐⭐ |
-| **March – May (Year 2)** | C Programming: A Modern Approach + medium/hard LeetCode            | ⭐⭐⭐⭐ (C Programming) |
-| **Next 6 Months**        | AI Intro: AIMA, PRML, Deep Learning (paired with Andrew Ng), AI applied to Dots | ⭐⭐⭐⭐⭐ (PRML), ⭐⭐⭐⭐ (AIMA, Deep Learning) |
-| **Final 6 Months**       | Polishing: LeetCode grind, systems reviews, eventually finishing SICP, GitHub showcase | ⭐⭐⭐⭐⭐ (SICP final chapters) |
+| **March – Late April**      | Python (Exercism), The Missing Semester (bash), SICP (up to Chapter 4) | ⭐⭐⭐⭐ (SICP) |
+| **May – Early July**  | CS:APP, early LeetCode, Exercism completion, Maths for CS (side reading)                             | ⭐⭐⭐⭐ (CS:APP) |
+| **July – August**     | Theory of Computation (Sipser, Arora & Barak) | ⭐⭐⭐⭐ (Sipser) |
+| **September – November**   | Algorithm Design Manual, deeper LeetCode, OSTEP | ⭐⭐⭐⭐ (ADM, OSTEP) |
+| **December – January**   | Computer Networking, Thinking in Systems                        | ⭐⭐⭐ (Computer Networking), ⭐⭐ (Thinking in Systems) |
+| **February – March (Year 2)** | Designing Data-Intensive Applications (DDIA) + Database Internals | ⭐⭐⭐⭐ |
+| **April – May**        | C Programming: A Modern Approach + medium/hard LeetCode | ⭐⭐⭐⭐ (C Programming) |
+| **June – November**        | AI Foundations: AIMA, PRML, Deep Learning (paired with Andrew Ng), AI applied to Dots project | ⭐⭐⭐⭐⭐ (PRML), ⭐⭐⭐⭐ (AIMA, Deep Learning) |
+| **Final 6 Months**       | Polishing: LeetCode grind, system design interviews, GitHub showcase, finishing SICP | ⭐⭐⭐⭐⭐ (SICP final chapters) |
 
 
 ---
