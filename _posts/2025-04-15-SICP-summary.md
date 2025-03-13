@@ -2,7 +2,7 @@
 layout: post
 title: "READING - SICP #10 — Finale thoughts"
 date: 2025-03-07
-categories: cs
+categories: reading
 author: Remy
 description: "SICP #10"
 github: https://github.com/Rae699

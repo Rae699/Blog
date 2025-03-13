@@ -26,7 +26,3 @@ permalink: /table-of-contents/
 - {{ post.date | date: "%Y-%m-%d" }} - [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
 
-## Opinion
-{% for post in site.categories.opinion %}
-- {{ post.date | date: "%Y-%m-%d" }} - [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-{% endfor %} 

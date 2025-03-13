@@ -2,7 +2,7 @@
 layout: post
 title: "PROJECT - Connect the Dots #1"
 date: 2025-03-07
-categories: cs 
+categories: project 
 author: Remy
 description: "Dots #1"
 github: https://github.com/Rae699
