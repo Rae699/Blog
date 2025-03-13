@@ -4,8 +4,6 @@ title: Table of Contents
 permalink: /table-of-contents/
 ---
 
-# Posts by Category
-
 ## Computer Science (CS)
 {% for post in site.categories.cs %}
 - {{ post.date | date: "%Y-%m-%d" }} - [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
