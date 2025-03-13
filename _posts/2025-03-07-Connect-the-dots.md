@@ -14,7 +14,7 @@ comments: false
 Two months ago, I built **Dots**.
 
 Armed with AI (mostly Claude Sonnet 3.5), curiosity, and zero formal CS knowledge, I threw myself into code. 
-After **401 hours**, **5000 AI prompts**, and **27,887 lines of code**, *Dots* became a reality:  
+After **401 hours**, **~11000 AI prompts**, and **27,887 lines of code**, *Dots* became a reality:  
 A fully automated, multi-exchange **signal screener** scanning crypto markets across **14 timeframes**, applying my personal strategies, and outputting real-time signals through a live dashboard.
 
 It works.  
@@ -25,6 +25,10 @@ But now... it's time to scale *Dots* beyond what vibe coding can support.
 
 
 ## 📊 Proof of Work
+
+#### 📷 **How It Looks Like (1 of 5 screeners)**
+![RSI Divergence Screener]({{ site.baseurl }}/assets/rsi_div_screener.png)
+
 
 #### 🚀 **Total Lines of Code: 27,887**
 
@@ -38,8 +42,36 @@ Tracked via **WakaTime**:
 
 ![WakaTime Dashboard]({{ site.baseurl }}/assets/wakatime-dashboard.png)
 
+---
+
+#### 💡 **Total AI Prompts: ~11,600**
+
+```# Adding the base quotas before the "extra" fast premium requests were counted
+# Assuming base quotas:
+base_fast_premium_500 = 500  # For months where "beyond 500/month" is mentioned
+base_fast_premium_2000 = 2000  # For months where "beyond 2000/month" is mentioned
+base_fast_premium_1500 = 1500  # For months where "beyond 1500/month" is mentioned
+
+# Counting the number of times each base quota should be included
+num_500_quota = 1  # Found in one entry
+num_2000_quota = 2  # Found in two entries
+num_1500_quota = 3  # Found in three entries
+
+# Totaling all requests including base quotas
+total_fast_premium_requests += num_500_quota * base_fast_premium_500
+total_fast_premium_requests += num_2000_quota * base_fast_premium_2000
+total_fast_premium_requests += num_1500_quota * base_fast_premium_1500
+
+# Recalculating the total requests
+total_requests = total_o1_requests + total_fast_premium_requests + total_fast_premium_high_requests
+
+# Output corrected total requests
+total_requests
+``` 
+![Stripe Billing for Prompt Computation]({{ site.baseurl }}/assets/stripe_billing_for_prompt_computation.jpeg)
 
 ---
+
 
 ## 🧠 What Is *Dots*?
 
@@ -99,15 +131,12 @@ Which means:
 This isn't about just adding more power.  
 
 This requires **rethinking everything**:  
-- The architecture.  
+- The architecture: implement diagram (boxes, arrows, flow of data)
 - The data flow.  
 - The algorithms.  
-- Later on, the languiage choices.
+- Later on, the language choices.
 
 And that starts with two key steps:
-
-
----
 
 ## Step 1 — Add **Tracing**
 
@@ -120,8 +149,6 @@ Right now, *Dots* works… but I don't know exactly why or how efficiently.
 
 We can't scale what we can't see.
 
-
----
 
 ## Step 2 — Refine and Optimize  
 
@@ -180,11 +207,12 @@ But it's the chapter that's forcing me to level up, fast.
 
 ## 📌 Coming Up in *Dots #2*  
 
-An insane level-up arc incoming:  
-- Mapping the full architecture of *Dots*.  
-- Adding tracing and profiling to finally measure what's happening under the hood.  
-- Hunting down and eliminating inefficiencies.  
-- Planning the first big refactors and optimization passes.  
+An insane level-up arc incoming: 
+	•	Architecting for scale → Full system diagrams & deep dives into design trade-offs.
+	•	Making it bulletproof → Unit tests, end-to-end validation, and failure handling.
+	•	Peering under the hood → Tracing, profiling, and benchmarking real performance.
+	•	Decision-making on bottlenecks → Exposing inefficiencies and optimizing execution paths while discussing trade-offs.
+
 
 This is where vibe coding ends.  
 This is where real engineering begins.  

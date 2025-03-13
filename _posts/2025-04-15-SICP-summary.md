@@ -358,9 +358,9 @@ While complexity theory tells us that constants don't matter *asymptotically*, i
 A key insight from SICP is how to structure programs using higher-order functions (functions that take other functions as arguments) and lower-order functions (functions that do the actual computation). 
 This abstraction allows for modular, reusable code that is both elegant and efficient.
 
-A higher-order function is a function that:
-	1.	Takes another function as an argument.
-	2.	Returns a function as a result (optional, but common).
+A higher-order function is:
+- a function that takes another function as an argument. In other words, it is a procedure that manipulates one or more procedures.
+- It serves as a powerful abstraction. 
 
 We’ll create a higher-order function that applies a given operation to a range of numbers.
 
@@ -380,7 +380,7 @@ def apply_operation(operation, a, b):
 
 #### The Lower-Order Functions
 
-The lower-order does the actual computation.
+The lower-order function does the actual computation.
 Hence, let's define a lower-order function that specify what operation to perform.
 ```
 def add(x, y):
@@ -390,7 +390,7 @@ def multiply(x, y):
     return x * y
 ```
 
-#### Using the higher-order
+#### Calling the higher-order f specifying which lower-order f to use
 
 Now we can call apply_operation with different lower-order functions:
 ```
@@ -412,7 +412,7 @@ Product: 120
 #### What's happening?
 
 It is simple:
-	1.	We call apply_operation(add, 1, 5).
+	1.	We call the higher-order function: apply_operation(add, 1, 5).
 	•	It loops through 1 to 5 and applies add(x, y), accumulating the sum.
 	2.	We call apply_operation(multiply, 1, 5).
 	•	It loops through 1 to 5 and applies multiply(x, y), accumulating the product.
