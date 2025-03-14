@@ -46,7 +46,8 @@ Tracked via **WakaTime**:
 
 #### 💡 **Total AI Prompts: ~11,600**
 
-```# Adding the base quotas before the "extra" fast premium requests were counted
+```
+# Adding the base quotas before the "extra" fast premium requests were counted
 # Assuming base quotas:
 base_fast_premium_500 = 500  # For months where "beyond 500/month" is mentioned
 base_fast_premium_2000 = 2000  # For months where "beyond 2000/month" is mentioned
@@ -67,7 +68,8 @@ total_requests = total_o1_requests + total_fast_premium_requests + total_fast_pr
 
 # Output corrected total requests
 total_requests
-``` 
+```
+
 ![Stripe Billing for Prompt Computation]({{ site.baseurl }}/assets/stripe_billing_for_prompt_computation.jpeg)
 
 ---

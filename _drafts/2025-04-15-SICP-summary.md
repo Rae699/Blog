@@ -5,7 +5,7 @@
 
 Let's analyze the growth rates of different functions in the Ackermann family:
 
-```python
+`python
 def f_linear(n):
     return n + 1  # O(n)
 
