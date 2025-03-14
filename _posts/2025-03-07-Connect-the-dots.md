@@ -14,7 +14,7 @@ comments: false
 Two months ago, I built **Dots**.
 
 Armed with AI (mostly Claude Sonnet 3.5), curiosity, and zero formal CS knowledge, I threw myself into code. 
-After **401 hours**, **~11000 AI prompts**, and **27,887 lines of code**, *Dots* became a reality:  
+After **401 hours**, **~6750 AI prompts**, and **27,887 lines of code**, *Dots* became a reality:  
 A fully automated, multi-exchange **signal screener** scanning crypto markets across **14 timeframes**, applying my personal strategies, and outputting real-time signals through a live dashboard.
 
 It works.  
@@ -44,30 +44,32 @@ Tracked via **WakaTime**:
 
 ---
 
-#### 💡 **Total AI Prompts: ~11,600**
+#### 💡 **Total AI Prompts: ~6,891**
 
-```
-# Adding the base quotas before the "extra" fast premium requests were counted
-# Assuming base quotas:
-base_fast_premium_500 = 500  # For months where "beyond 500/month" is mentioned
-base_fast_premium_2000 = 2000  # For months where "beyond 2000/month" is mentioned
-base_fast_premium_1500 = 1500  # For months where "beyond 1500/month" is mentioned
+```python
+# Calculating total prompts from Stripe billing
+# Breaking down by month (March 2025 - January 2025)
 
-# Counting the number of times each base quota should be included
-num_500_quota = 1  # Found in one entry
-num_2000_quota = 2  # Found in two entries
-num_1500_quota = 3  # Found in three entries
+# March 2025
+march_base = 2000    # Base quota
+march_extra = 505    # Extra fast premium requests
+march_regular = 50   # Regular requests
+march_total = march_base + march_extra + march_regular  # 2,555
 
-# Totaling all requests including base quotas
-total_fast_premium_requests += num_500_quota * base_fast_premium_500
-total_fast_premium_requests += num_2000_quota * base_fast_premium_2000
-total_fast_premium_requests += num_1500_quota * base_fast_premium_1500
+# February 2025
+feb_base = 1500      # Base quota
+feb_extra = 556      # Extra fast premium (45 + 511)
+feb_regular = 120    # Regular requests (46 + 74)
+feb_total = feb_base + feb_extra + feb_regular  # 2,176
 
-# Recalculating the total requests
-total_requests = total_o1_requests + total_fast_premium_requests + total_fast_premium_high_requests
+# January 2025
+jan_base = 1500      # Base quota
+jan_extra = 564      # Extra fast premium (288 + 276)
+jan_regular = 96     # Regular requests (1 + 72 + 23)
+jan_total = jan_base + jan_extra + jan_regular  # 2,160
 
-# Output corrected total requests
-total_requests
+# Total prompts across all months
+total_prompts = march_total + feb_total + jan_total  # 6,891
 ```
 
 ![Stripe Billing for Prompt Computation]({{ site.baseurl }}/assets/stripe_billing_for_prompt_computation.jpeg)
