@@ -30,7 +30,7 @@ It's a personal roadmap designed to keep me organized and focused on my goals.
 - **Thinking in Systems (Meadows)**: Provides insights into big-picture system design and architecture.
 - **Designing Data-Intensive Applications (DDIA)**: Explores distributed data, scalability, and real-time computing.
 - **Reading in Database**: Focuses on database internals, including indexes, transactions, and query optimization.
-- **Fluent Python**: This is a side constant reading that I will refer to every day to enhance my understanding of Python's idiomatic constructs and advanced features.
+- **Efficient Python**: 1 lesson per day, for 90 days. 
 - **C Programming: A Modern Approach**: Emphasizes low-level memory management, pointers, and system programming.
 - **Cloud Architecture Patterns**: Examines distributed AI applications and scalable systems.
 -	**Introduction to the Theory of Computation**: Only Ch. 1-6, light Ch. 7-9: Covers automata & complexity for deeper CS knowledge.
@@ -71,10 +71,9 @@ Once the core systems are solid:
 ## 🏗️ Daily Routine (The Dots Discipline)
 Every day, without compromise, i will mix some of these to grind hard:
 - ⌨️ **Typing Practice** — 15 min (Goal: >120 WPM)
-- 🐍 **Exercism (Python)** — 90 min (Goal: 30+ exercises/week)
-- 📖 **CS Readings** — 180 min (from the curriculum above)
-- 🛠️ **The Missing Semester** — 1 lesson/day
-- ⚡ **Bash & CLI scripting** — post-Missing Semester (Goal: fluency)
+- 🐍 **Exercism (Python)** — 90 min (Goal: 5+ exercises per week until lessons are completed, then 2+ exercises per day for a total of ~10 per week. Should take 4 months ~ish). Followed by reading Efficient Python (one item per day for 90 days.  Should take 4 months ~ish), and High Performance Python (±10 pages per day. Should take ~2.5 months). Expected total: ~11 months.  
+- 📖 **CS Readings** — 240 min (from the curriculum above)
+- 🛠️ **The Missing Semester** — Complete 1 lesson per day. Once finished, allocate the freed-up time to additional Exercism/Python reading/LeetCode practice.
 - 🧠 **LeetCode, NeetCode** — algorithmic drills
 - 📊 **Dots Trading System** — ongoing development & refactoring
 
