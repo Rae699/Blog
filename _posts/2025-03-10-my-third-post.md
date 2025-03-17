@@ -75,7 +75,7 @@ Interpreters typically use applicative-order, which can get stuck if the variabl
 Nothing better than Ackermann's function to understand all these concepts properly as this gives the perfect example of fast it can grow... 
 
 #### Growth
-![Growth]({{ site.baseurl }}/assets/growth.png)
+![Growth]({{ site.baseurl }}/assets/growth_of_f_g_h_k_from_the_ackermann_function_examples.png)
 
 
 ---

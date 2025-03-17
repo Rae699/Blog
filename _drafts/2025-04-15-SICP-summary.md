@@ -45,4 +45,4 @@ k_ackermann(4, 2)     # Value too large to compute!
 
 This demonstrates the hierarchy of growth rates and why Ackermann's function is a perfect example of computational complexity explosion.
 
-![Growth of Functions]({{ site.baseurl }}/assets/Growth-of-f-g-h.png) 
+![Growth of Functions]({{ site.baseurl }}/assets/growth_of_f_g_h_k_from_the_ackermann_function_examples.png) 
