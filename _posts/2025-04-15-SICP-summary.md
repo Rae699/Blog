@@ -9,72 +9,8 @@ github: https://github.com/Rae699
 comments: false
 ---
 
-## **Part I — Rethinking Programming from First Principles**  
 
-### **Why SICP?**  
-
-Most programming books teach syntax, frameworks, or best practices. *Structure and Interpretation of Computer Programs* (SICP) does something entirely different—it rewires how you *think*.  
-
-Before SICP, I saw programming as a set of instructions to be executed where syntax was almost the most important thing.
-Now, I see it as a process—an unfolding sequence of transformations driven by underlying mathematical principles. 
-
-The impact of SICP on the thought process is profound:
-1.	It teaches abstraction deeply. You don't just write functions—you learn to create powerful abstractions, thinking in terms of layers and compositions. That's a crucial skill for designing scalable systems.
-2.	It rewires your thinking to focus on expressiveness over syntax. Unlike books that focus on syntax-heavy programming, SICP forces you to think in terms of mathematical rigor and expressive models of computation.
-3.	It reveals deep principles of software engineering. Recursion, higher-order functions, data abstraction, modularity, and interpreters—all central to writing robust software—are taught in an elegant way.
-4.  It teaches computation as a craft. You're not just solving problems, you're designing elegant, efficient solutions using minimal yet expressive constructs.
-5.	It has shaped legendary engineers. It was the core MIT curriculum for decades, influencing the design of Lisp, Scheme, and many modern functional programming paradigms.
-
-
----
-
-### **The Immediate Impact**  
-
-Just 40 pages in, my perspective had already shifted. Take the **substitution model**—I no longer see it as theory. 
-I can now visualize exactly how an interpreter evaluates expressions, breaking them down step by step.  
-
-Then, comes the evaluation strategy:  
-- **Applicative-order**: Evaluate all arguments first, then apply the function once the code encounters primitives only.
-- **Normal-order**: Delay evaluation until absolutely necessary. Deferred options for recursion leads to a growing stack... 
-
-This isn't just an academic distinction. Knowing when and why an evaluation strategy matters is foundational for performance, optimization, and avoiding unnecessary computation.  
-
-And then there's recursion. I finally *get* recursion—not just how to write it, but what's happening at a deeper level:  
-- A **recursive process** builds up deferred operations, consuming memory.  
-- An **iterative process** runs smoothly in constant space, no matter the depth.  
-
-Understanding this is the difference between writing code that works and writing code that scales.  
-
-
----
-
-### **Why This Matters**  
-
-This isn't just about mastering Scheme or finishing a book. 
-
-SICP builds the mental models that great engineers rely on—models that scale to anything, from algorithmic problem-solving to systems design.  
-
-Next, I'll move deeper into *Computer Systems: A Programmer's Perspective*, refining my understanding of memory, CPU performance, and low-level optimizations. 
-
-Then, *The Algorithm Design Manual* to solidify my approach to problem-solving.  
-
-This structured learning approach ensures that I'm not just accumulating knowledge—I'm actively building a foundation that will compound over time.  
-
-More to come.  
-
-
----
-
-### **How SICP Connects to Deeper Math**  
-- Just two exercises in Chapter 1 tie directly to:  
-  - **Combinatorics** (Exercise 1.12) → Pascal's Triangle.  
-  - **Recurrence relations** (Exercise 1.13) → Fibonacci sequences, induction.  
-- These aren't random exercises—they reinforce foundational CS concepts that appear across algorithms and systems design.  
-
-
----
-
-## **Part II — Chapter I Summary & Notes**  
+## Chapter I - Deeper Summary & Notes**  
 
 ### **The Substitution Model of Evaluation**  
 - Computation unfolds step by step, just like an interpreter processes code.  
@@ -362,9 +298,9 @@ A higher-order function is:
 - a function that takes another function as an argument. In other words, it is a procedure that manipulates one or more procedures.
 - It serves as a powerful abstraction. 
 
-We’ll create a higher-order function that applies a given operation to a range of numbers.
+We'll create a higher-order function that applies a given operation to a range of numbers.
 
-Let’s say we want to sum or multiply numbers from a to b. We’ll create a general higher-order function that takes:
+Let's say we want to sum or multiply numbers from a to b. We'll create a general higher-order function that takes:
 	•	A function (operation) that defines what to do with each number.
 	•	A starting number (a).
 	•	An ending number (b).
@@ -419,7 +355,7 @@ It is simple:
 
 It is important because:
 ✅ Code Reusability → We can use apply_operation for many different operations.
-✅ Clear Abstraction → Separates “what to do” (add, multiply) from “how to iterate” (apply_operation).
+✅ Clear Abstraction → Separates "what to do" (add, multiply) from "how to iterate" (apply_operation).
 ✅ Scalability → We can easily add new operations without rewriting the logic.
 
 
@@ -473,9 +409,163 @@ The user calls factorial_iterative(5):
 This structured approach ensures that we can reuse product for different computations, improving code clarity and efficiency—one of the key lessons from SICP. 🚀
 
 
+### **Finding Fixed Points and Newton's Method**
+
+One of the most elegant applications of higher-order functions is finding fixed points of functions. A fixed point is a value where f(x) = x. This concept is fundamental in mathematics and computer science, appearing in everything from recursive algorithms to numerical methods.
+
+#### **The Fixed-Point Abstraction**
+
+The beauty of SICP's approach is how it abstracts the process of finding fixed points into a general procedure:
+
+```scheme
+(define tolerance 0.00001)
+
+(define (fixed-point f first-guess)
+  (define (close-enough? v1 v2)
+    (< (abs (- v1 v2)) tolerance))
+  (define (try guess)
+    (let ((next (f guess)))
+      (if (close-enough? guess next)
+          next
+          (try next))))
+  (try first-guess))
+```
+
+This higher-order function takes:
+- A function `f` whose fixed point we want to find
+- An initial guess to start the iteration
+
+The process is remarkably simple:
+1. Apply `f` to our current guess to get a new value
+2. If the new value is close enough to our guess, we've found the fixed point
+3. Otherwise, recursively try again with the new value as our guess
+
+#### **Practical Application: Computing Square Roots**
+
+We can use this fixed-point finder to compute square roots. The square root of x is a value y where y² = x, which means y = x/y.
+
+```scheme
+(define (sqrt x)
+  (fixed-point (lambda (y) (/ x y)) 1.0))
+```
+
+However, this naive approach oscillates between values without converging. The key insight is to use **average damping** to stabilize the process:
+
+```scheme
+(define (sqrt x)
+  (fixed-point (lambda (y) (average y (/ x y))) 1.0))
+```
+
+By averaging the current guess with the next computed value, we create a convergent sequence that efficiently finds the square root.
+
+#### **Newton's Method: A Powerful Generalization**
+
+Newton's method is a powerful technique for finding roots of functions (values where f(x) = 0). The method uses the derivative of a function to iteratively improve approximations:
+
+```scheme
+(define (newton-transform g)
+  (lambda (x) (- x (/ (g x) ((deriv g) x)))))
+
+(define (newton-method g guess)
+  (fixed-point (newton-transform g) guess))
+```
+
+This elegant implementation shows how higher-order functions allow us to express complex mathematical methods concisely:
+- `newton-transform` takes a function and returns a new function that performs one step of Newton's method
+- `newton-method` uses our fixed-point finder with this transformed function
+
+We can now redefine our square root function using Newton's method:
+
+```scheme
+(define (sqrt x)
+  (newton-method (lambda (y) (- (square y) x)) 1.0))
+```
+
+#### **Key Insights**
+
+The power of these abstractions lies in their composability:
+- We defined a general fixed-point finder
+- We created transformations that modify functions (average damping, Newton's transform)
+- We composed these to create efficient numerical methods
+
+This approach demonstrates how functional programming enables us to:
+1. **Express mathematical concepts directly** in code
+2. **Build layers of abstraction** that hide implementation details
+3. **Compose simple functions** to create powerful algorithms
+
+### **Abstractions and First-Class Procedures**
+
+The culmination of SICP's first chapter reveals how procedures as first-class objects enable powerful abstractions. By treating procedures like any other data, we can create general methods that transform, combine, and apply functions in flexible ways.
+
+#### **Procedures as Returned Values**
+
+One of the most powerful patterns is creating procedures that return other procedures:
+
+```scheme
+(define (average-damp f)
+  (lambda (x) (average x (f x))))
+
+(define (sqrt x)
+  (fixed-point (average-damp (lambda (y) (/ x y))) 1.0))
+```
+
+This approach allows us to:
+- Create reusable transformations that modify how functions behave
+- Apply these transformations in different contexts
+- Build complex behaviors from simple components
+
+#### **Abstracting Common Patterns**
+
+The real power comes when we abstract common patterns into higher-order procedures:
+
+```scheme
+(define (fixed-point-of-transform g transform guess)
+  (fixed-point (transform g) guess))
+
+(define (sqrt x)
+  (fixed-point-of-transform 
+    (lambda (y) (/ x y)) average-damp 1.0))
+
+(define (sqrt x)
+  (fixed-point-of-transform
+    (lambda (y) (- (square y) x)) newton-transform 1.0))
+```
+
+Notice how both implementations of `sqrt` now follow the same pattern, differing only in the function being transformed and the transformation applied.
+
+#### **The Essence of Abstraction**
+
+This approach to programming embodies the essence of abstraction:
+1. **Identify common patterns** in different procedures
+2. **Extract these patterns** into higher-order procedures
+3. **Express specific cases** as instances of these general patterns
+
+The result is code that is:
+- More **concise** (fewer lines of code)
+- More **expressive** (captures intent clearly)
+- More **maintainable** (changes can be made at the appropriate level of abstraction)
+- More **reusable** (general patterns can be applied in new contexts)
+
+#### **Practical Takeaways**
+
+These concepts translate directly to modern Python programming:
+- Python's `map()`, `filter()`, and `functools.reduce()` are direct implementations of these functional programming ideas
+- Python decorators are higher-order functions that transform other functions
+- Libraries like `itertools` and `functools` build on these functional programming foundations
+- Frameworks like Django and FastAPI use higher-order functions for middleware and request handling
+
+By understanding these fundamental abstractions, we gain the ability to:
+- **Recognize patterns** across seemingly different problems
+- **Create elegant solutions** using Python's functional programming features
+- **Build powerful abstractions** that make complex tasks simple
+- **Write more maintainable code** by separating concerns through function composition
+
+This is the true power of functional programming in Python—not just using functions as organizational units, but as powerful tools for abstraction and composition.
+
+
 ---
 
-### **Closing Thoughts**  
+## **Closing Thoughts**  
 
 SICP is not about learning to code. It's about learning to *think*.  
 
