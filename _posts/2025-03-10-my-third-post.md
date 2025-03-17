@@ -59,7 +59,7 @@ New goal set:
 
 ## 🔜 SICP
 
-Let's make this a separate chapter, shall we? [Check here for my thoughts/impact of the book]({{ site.baseurl }}{% post_url 2025-03-07-SICP-1 %})
+Let's make this a separate chapter, shall we? [Check here for my thoughts/impact of the book]({{ site.baseurl }}{% post_url 2025-03-07-SICP-Key_Takeaways %})
 
 My initial impressions are absolutely **fantastic**.
 This is precisely the "philosophy of programming" I've been searching for.
