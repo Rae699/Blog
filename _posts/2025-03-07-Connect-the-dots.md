@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PROJECT - Connect the Dots #1"
+title: "Connect the Dots #1"
 date: 2025-03-07
 categories: project 
 author: Remy

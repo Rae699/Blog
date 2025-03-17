@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CS - The Plan: 24 Months to Mastery"
+title: "The Plan: 24 Months to Mastery"
 date: 2025-03-03
 categories: cs
 author: Remy

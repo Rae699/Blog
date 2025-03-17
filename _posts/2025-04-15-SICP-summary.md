@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "READING - SICP #10 — Finale thoughts"
+title: "SICP #Notes"
 date: 2025-03-07
 categories: reading
 author: Remy

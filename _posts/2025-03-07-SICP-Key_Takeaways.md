@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "READING - SICP #Key Takeaways"
+title: "SICP #Key Takeaways"
 date: 2025-03-07
 categories: reading
 author: Remy
