@@ -209,7 +209,7 @@ Let's explore these ideas with **examples**, **code**, and **insights**.
 
 #### 📌 **2.1: Introduction to Data Abstraction**
 
-##### 🤔 **What Is Data Abstraction?**
+##### 🤔 **Part A: What Is Data Abstraction?**
 
 Data **isn't about how it's stored**—it's about **how it behaves**.
 
@@ -248,9 +248,7 @@ We want to represent fractions like **3/4** in a structured way. Instead of just
 - **Hiding representation makes code modular.** We can change `make-rat` later without breaking existing functions.
 - **Procedural abstraction applies to data just like functions.**
 
-###### 📌 **2.1.2: Interval Arithmetic and Error Propagation**
-
-##### 🧮 **Managing Uncertainty in Computation**
+##### 🧮 **Part B: Managing uncertainty in computation: Interval Arithmetic and Error Propagation**
 
 A fascinating application in SICP is **interval arithmetic**—representing values not as single points but as **ranges** to track uncertainty through calculations.
 

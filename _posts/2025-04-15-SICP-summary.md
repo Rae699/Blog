@@ -565,16 +565,6 @@ This is the true power of functional programming in Python—not just using func
 
 ---
 
-## **Closing Thoughts**  
-
-SICP is not about learning to code. It's about learning to *think*.  
-
-Each chapter rewires intuition, forcing a shift from writing instructions to designing *processes*. This is why the book is legendary—it doesn't just teach programming; it transforms how you approach computation itself.  
-
-This is just the beginning. More deep dives, more structured learning, and more insights to come.  
-
----
-
 ## Chapter II - Deeper Summary & Notes**
 
 ### **Data Abstraction and Closure Property**
@@ -1012,3 +1002,15 @@ These concepts form the foundation of modern programming paradigms:
 Most importantly, Chapter 2 shows us that programming is about designing **languages**—not just using them. By creating the right abstractions, we can build systems that speak the language of our problem domain.
 
 The line between data and procedures blurs. In the end, they're just different views of the same computational processes.  
+
+
+
+---
+
+## **Closing Thoughts**  
+
+SICP is not about learning to code. It's about learning to *think*.  
+
+Each chapter rewires intuition, forcing a shift from writing instructions to designing *processes*. This is why the book is legendary—it doesn't just teach programming; it transforms how you approach computation itself.  
+
+This is just the beginning. More deep dives, more structured learning, and more insights to come.  
