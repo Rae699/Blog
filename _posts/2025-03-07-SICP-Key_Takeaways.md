@@ -248,6 +248,75 @@ We want to represent fractions like **3/4** in a structured way. Instead of just
 - **Hiding representation makes code modular.** We can change `make-rat` later without breaking existing functions.
 - **Procedural abstraction applies to data just like functions.**
 
+###### 📌 **2.1.2: Interval Arithmetic and Error Propagation**
+
+##### 🧮 **Managing Uncertainty in Computation**
+
+A fascinating application in SICP is **interval arithmetic**—representing values not as single points but as **ranges** to track uncertainty through calculations.
+
+###### 📝 **Example: Implementing Interval Arithmetic**
+
+```scheme
+(define (make-interval a b) (cons a b))
+(define (lower-bound i) (car i))
+(define (upper-bound i) (cdr i))
+
+(define (add-interval x y)
+  (make-interval (+ (lower-bound x) (lower-bound y))
+                 (+ (upper-bound x) (upper-bound y))))
+
+(define (mul-interval x y)
+  (let ((p1 (* (lower-bound x) (lower-bound y)))
+        (p2 (* (lower-bound x) (upper-bound y)))
+        (p3 (* (upper-bound x) (lower-bound y)))
+        (p4 (* (upper-bound x) (upper-bound y))))
+    (make-interval (min p1 p2 p3 p4)
+                   (max p1 p2 p3 p4))))
+```
+
+However, this system reveals a profound insight when we try to subtract an interval from itself:
+
+```scheme
+(define (sub-interval x y)
+  (make-interval (- (lower-bound x) (upper-bound y))
+                 (- (upper-bound x) (lower-bound y))))
+
+;; For interval A = [3, 4]
+;; A - A should be exactly [0, 0]
+;; But naive calculation gives [-1, 1]
+```
+
+This is the **dependency problem**: when a variable appears multiple times in a calculation, treating each occurrence as independent leads to artificially wide intervals.
+
+###### 🤔 **The Revelation: Mathematical Form Matters**
+
+The solution reveals a deep principle: **algebraic transformations matter computationally**. Rewriting expressions to reduce multiple dependencies on the same variable dramatically improves precision:
+
+```scheme
+;; Naive implementation of squaring (treats each x independently)
+(define (square-interval-naive x)
+  (mul-interval x x))
+
+;; Better implementation (recognizes x's dependency on itself)
+(define (square-interval-better x)
+  (let ((a (lower-bound x))
+        (b (upper-bound x)))
+    (cond ((and (>= a 0) (>= b 0)) ; Both positive
+           (make-interval (* a a) (* b b)))
+          ((and (<= a 0) (<= b 0)) ; Both negative
+           (make-interval (* b b) (* a a)))
+          (else ; Spans zero
+           (make-interval 0 (max (* a a) (* b b)))))))
+```
+
+✅ **Key idea:** The mathematical structure of expressions directly impacts computational accuracy and error propagation.
+
+###### 🎯 **Key Takeaways**
+- **Error propagation affects all numerical computation**—understanding it is crucial.
+- **Mathematical elegance and computational efficiency are connected**—how we write formulas matters.
+- **Reducing variable dependencies improves precision**—a critical insight for scientific computing.
+- **Alternate representations can dramatically reduce errors**—mathematical rewriting has practical benefits.
+
 
 ---
 
@@ -414,6 +483,206 @@ SICP **Chapter 2** changes the way we think about data. Instead of being passive
    - Trees and nested structures let us model complex relationships.
 4. **Symbolic Processing Unlocks New Domains**
    - Working with symbols enables powerful applications like interpreters and compilers.
+
+
+---
+
+#### 🚀 **SICP Chapter 3 Deep Dive: Modularity, Objects, and State**
+
+In **Chapter 1**, we learned to **think in procedures**.  
+In **Chapter 2**, we saw **data as an abstraction**.  
+Now, in **Chapter 3**, SICP introduces **state, mutation, and object-oriented thinking**.
+
+This chapter explores:
+- **How to model systems that change over time.**
+- **The power and pitfalls of mutable state.**
+- **The key idea: Objects combine data and behavior.**
+
+Let's examine these concepts with **examples**, **code**, and **insights**.
+
+
+---
+
+#### 📌 **3.1: Assignment and Local State**
+
+##### 🧠 **Mutation Changes Everything**
+
+Previously, functions were **pure**—they didn't modify global variables.  
+Now, we introduce **assignment (`set!`)**, which **changes the value of a variable**.
+
+###### 📝 **Example: A Counter Function (With Mutation)**
+```scheme
+(define counter 0) 
+
+(define (increment-counter)
+  (set! counter (+ counter 1))
+  counter)
+
+(increment-counter)  ; → 1
+(increment-counter)  ; → 2
+```
+
+✅ **Key difference:** Before, a function call returned **a new value**. Now, it **modifies existing state**.
+
+###### 🎯 **Key Takeaways**
+- **Mutation breaks referential transparency** (same input doesn't always give same output).
+- Stateful functions are **more powerful but harder to reason about**.
+- **`set!` allows variables to be updated**, making objects possible.
+
+
+---
+
+#### 📌 **3.2: Objects and Environments**
+
+##### 🎭 **Simulating Objects with Local State**
+
+Now that we have **mutable state**, we can model **objects**.
+
+###### 📝 **Example: A Simple Bank Account Object**
+```scheme
+(define (make-account balance)
+  (define (withdraw amount)
+    (if (>= balance amount)
+        (begin (set! balance (- balance amount))
+               balance)
+        "Insufficient funds"))
+
+  (define (deposit amount)
+    (set! balance (+ balance amount))
+    balance)
+
+  (define (dispatch m)
+    (cond ((eq? m 'withdraw) withdraw)
+          ((eq? m 'deposit) deposit)
+          (else (error "Unknown request"))))
+  
+  dispatch)  ; Return the dispatch function
+```
+
+Now we can **create an account and interact with it**:
+
+```scheme
+(define acc (make-account 100))
+
+((acc 'withdraw) 50)   ; → 50
+((acc 'withdraw) 60)   ; → "Insufficient funds"
+((acc 'deposit) 40)    ; → 90
+```
+
+✅ **Key idea:**  
+Each `make-account` call **creates an independent object**, with **its own local state**.
+
+###### 🎯 **Key Takeaways**
+- Functions **can encapsulate state**, simulating **OOP objects**.
+- **Encapsulation prevents outside interference**, keeping data private.
+- This is the foundation of **message passing and OOP in Lisp-like languages**.
+
+
+---
+
+#### 📌 **3.3: Modeling with Mutable Data**
+
+##### 📂 **Building Persistent Data Structures**
+
+Now that we have **mutable data**, we can model **real-world objects that change over time**.
+
+###### 📝 **Example: A Queue (First-In-First-Out)**
+```scheme
+(define (make-queue)
+  (let ((front '()) (rear '()))
+    (define (empty?) (null? front))
+    (define (enqueue item)
+      (set! rear (cons item rear)))
+
+    (define (dequeue)
+      (if (empty?) (error "Queue is empty!")
+          (begin
+            (set! front (cdr front))
+            (if (null? front)
+                (begin (set! front (reverse rear))
+                       (set! rear '())))
+            (car front))))
+
+    (define (dispatch m)
+      (cond ((eq? m 'enqueue) enqueue)
+            ((eq? m 'dequeue) dequeue)
+            ((eq? m 'empty?) empty?)
+            (else (error "Unknown request"))))
+    
+    dispatch))
+```
+
+**Usage:**
+```scheme
+(define q (make-queue))
+
+((q 'enqueue) 1)
+((q 'enqueue) 2)
+((q 'enqueue) 3)
+
+((q 'dequeue))  ; → 1
+((q 'dequeue))  ; → 2
+```
+
+✅ **Key idea:** **Queues are mutable structures that store data sequentially.**
+
+###### 🎯 **Key Takeaways**
+- **Queues, stacks, and other data structures are easier to implement with mutation.**
+- Stateful structures enable **efficient simulations** of real-world systems.
+- **Encapsulation keeps operations safe and modular.**
+
+
+---
+
+#### 📌 **3.4: Concurrency and Parallelism**
+
+##### ⏳ **The Challenges of Shared State**
+
+Stateful objects work **well in isolation**, but what happens when multiple processes access **shared resources**?
+
+###### 📝 **Example: Two People Withdrawing From The Same Account**
+
+```scheme
+(define acc (make-account 100))
+
+(parallel-execute (lambda () ((acc 'withdraw) 60))
+                  (lambda () ((acc 'withdraw) 50)))
+```
+
+What happens?
+- Sometimes **one withdraws first, then the other gets "Insufficient funds"**.
+- Other times, **both succeed (incorrect behavior!)**.
+
+This is called a **race condition**—**when timing affects correctness**.
+
+###### 🚧 **How to Solve Race Conditions?**
+
+1. **Locks / Serialization**: Ensure only **one process runs at a time**.
+2. **Transactional Memory**: If two operations conflict, one must **retry**.
+
+✅ **Key idea:** **Concurrency requires careful control of shared state.**
+
+###### 🎯 **Key Takeaways**
+- **Parallel execution leads to race conditions if not managed properly.**
+- **Synchronization ensures correctness** (but adds complexity).
+- **Modern programming uses locks, transactional memory, and functional purity to avoid these issues.**
+
+
+---
+
+#### 🏁 **Conclusion: The Power of Mutable State**
+
+SICP **Chapter 3** teaches us how to **use and manage state effectively**.
+
+##### 🚀 **Big Ideas from Chapter 3**
+1. **State Enables Real-World Modeling**
+   - Stateful objects simulate **real-world systems** (e.g., bank accounts, queues).
+2. **Encapsulation Protects Data**
+   - Objects keep data **private**, preventing unwanted modifications.
+3. **Concurrency Introduces Complexity**
+   - Parallel execution requires **careful synchronization**.
+4. **The Tradeoff: Power vs. Complexity**
+   - Mutable state is **powerful but introduces complexity and potential bugs**.
 
 
 ---
