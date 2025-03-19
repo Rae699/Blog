@@ -160,6 +160,6 @@ Stay systematic. Stay humble. Stay ready.
 ---
 
 _Follow my journey:_  
-- [Trading Systems Progress]({{ site.baseurl }}{% post_url 2025-03-03-my-first-post %})  
-- [CS Learning Path]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})  
-- [Weekly Updates]({{ site.baseurl }}{% post_url 2025-03-10-my-third-post %})
+- [Trading Systems Progress]({{ site.baseurl }}{% post_url 2025-03-03-The-Journey %})  
+- [CS Learning Path]({{ site.baseurl }}{% post_url 2025-03-03-The-Plan %})  
+- [Weekly Updates]({{ site.baseurl }}{% post_url 2025-03-10-Checkpoint-1 %})

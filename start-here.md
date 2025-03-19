@@ -85,7 +85,7 @@ The goal is to master algorithms and push massively on systems, as the future is
 7. Cloud architecture patterns*
 8. Designing Data-Intensive Applications (DDIA)
 9. C Programming: A Modern Approach
-[Full Reading List]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})
+[Full Reading List]({{ site.baseurl }}{% post_url 2025-03-03-The-Plan %})
 <br>
 
 ### 🤖 AI Track (For Advanced Trading Systems)
@@ -114,7 +114,7 @@ One of these:
 - 🔲 Advanced Algorithms
 - 🔲 Distributed Systems
 - 🔲 AI optimization (i have a ton of structured and unstructured from my 10y trading journey)
-- 🔲 [Full Roadmap Here]({{ site.baseurl }}{% post_url 2025-03-03-my-second-post %})
+- 🔲 [Full Roadmap Here]({{ site.baseurl }}{% post_url 2025-03-03-The-Plan %})
 
 
 --- 
@@ -136,7 +136,7 @@ A collaborative trading infrastructure with 3 friends, investment-bankers:
 - Modular strategy framework
 - Real-time market analysis
 - Live execution and monitoring
-- [Project Overview]({{ site.baseurl }}{% post_url 2025-03-03-my-first-post %})
+- [Project Overview]({{ site.baseurl }}{% post_url 2025-03-03-The-Journey %})
 
 
 ---
@@ -150,7 +150,7 @@ Every week, I will publish some updates, may it be about:
 4. 💡 Project Updates
 5. 💌 Feelings!
 
-[Latest Update]({{ site.baseurl }}{% post_url 2025-03-10-my-third-post %})
+[Latest Update]({{ site.baseurl }}{% post_url 2025-03-10-Checkpoint-1 %})
 
 
 ---
