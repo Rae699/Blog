@@ -9,7 +9,7 @@ github: https://github.com/Rae699
 comments: false
 ---
 
-# Week 1 - Bilan
+# Bilan after 1 week
 
 Alright, time to log the first checkpoint.
 
@@ -42,16 +42,14 @@ New method and goal set:
 
 
 ### Missing semester of your CS? 
-I was doing quite well until I encountered RegEx, Vim, and CLI.
-The sheer volume of information presented was overwhelming.
+I was doing quite well until I encountered RegEx, and Vim. The sheer volume of information presented was overwhelming.
 I felt inundated. 
 
 Here's the deal: RegEx? Let AI handle that for now. 
-VIM? Not quite there yet.
-CLI? Love it, but tools like sed, awk, and tmux will get mastered over time with consistent use.
+VIM? Not quite there yet. But i might consider trying Helix follolwing good feedbacks i hear.
 
 New goal set:
-- Internalize some of these commands cold,
+- Internalize some of these commands cold, especially for the CLI,
 - Work again on the solutions of these videos, internalize them.
 
 
@@ -67,7 +65,7 @@ This is precisely the "philosophy of programming" I've been searching for.
 After just 40 pages, I already grasp how the substitution model works from a computer's perspective.
 There are two evaluation methods: applicative-order and normal-order.
 
-I think I've finally unlocked some understanding of recursion, especially with the comparison between recursive and iterative processes.
+I am obviously getting a deeper understanding of recursion, especially with the comparison between recursive and iterative processes.
 One leads to deferred operations and exponential time growth, while the other is much more efficient.
 
 Interpreters typically use applicative-order, which can get stuck if the variables don't resolve to primitive data types.
@@ -116,16 +114,6 @@ This is the path forward.
 
 ## 📚 Elsewhere on the grind:
 
-**Missing Semester of your CS** 
-
-Knocked out 4 lessons.  
-
-Terminal * 2, bash, vim... All the little things that will make me dangerous in a shell.  
-These are the tools that remove friction from everything else. 
-No complaints. 
-
-Enjoying the journey but i will come back to Vim later on...
-
 ### ⌨️ Typing Speed
 
 **80 WPM achieved.**  
@@ -136,7 +124,7 @@ But hey, when the ideas are flowing, might as well have the hands to match.
 
 Next step: Adding more letters at 80 WPM, then aiming for 120 WPM. 
 
-### - High School Maths
+### 📐 High School Maths
 I've nearly wrapped up revisiting the high school and secondary school math curriculum, focusing on the key topics relevant to CS.
 It's gratifying to feel like I'm back on track, almost at the level I was 10-15 years ago.
 
