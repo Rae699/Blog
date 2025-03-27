@@ -9,7 +9,7 @@ github: https://github.com/Rae699
 comments: false
 ---
 
-# Week 5 - Bilan
+# Week 3 - Bilan
 
 Time for the second checkpoint. Let's see where we stand.
 
@@ -158,6 +158,6 @@ It's still too early in my journey to dive into this level of refactoring, but t
 
 ---
 
-That's the checkpoint for Week 5. The journey continues with deeper understanding and sharper skills.
+That's the checkpoint for Week 3. The journey continues with deeper understanding and sharper skills.
 
 See you at the next checkpoint. 
