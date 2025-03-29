@@ -13,15 +13,14 @@ I'm Remy.
 I'm on an intense 2-year journey to transform from a real estate lawyer turned portfolio manager in a family-office into a FAANG-level software engineer, studying 50+ hours per week. 
 This blog documents my entire journey—the wins, the struggles, and everything I learn along the way.
 
-Why? 
-
-I have been vibe-coding with ai my entire trading strategies and i have now reached the point where i need CS skills to optimize it more.
-
 
 ---
 
 ## 🎯 The Goal
 
+I have been vibe-coding with ai my entire trading strategies and i have now reached the point where i need CS skills to optimize it more.
+
+The goal is simple:
 **Transform into a world-class software engineer capable of building complex, scalable and reliable systems.**
 
 My north star? Getting into a FAANG. 

@@ -1263,30 +1263,25 @@ def angle(z): return apply_generic('angle', z)
    - Clear separation of concerns
    - Easy to debug (problems are isolated to specific table entries)
 
-#### Modern Applications
+4. **Performance**:
+   - Coercion procedures are cached in the registry
+   - No need to traverse a type hierarchy
+   - Direct lookup of coercion procedures
 
-This pattern is the foundation for many modern programming concepts:
+This pattern is particularly useful in:
+- Scientific computing libraries (NumPy, SciPy)
+- Financial applications (handling different numeric types)
+- Data processing pipelines (type conversion between stages)
+- API integrations (converting between different data formats)
 
-1. **Polymorphism** in Object-Oriented Programming
-2. **Type Classes** in Haskell
-3. **Multiple Dispatch** in Julia
-4. **Protocol Extensions** in Clojure
+The key insight remains the same as in SICP: type systems are not rigid rules but flexible tools we design to model our problem domain. This modern implementation shows how these concepts evolve while maintaining their fundamental principles.
 
-#### Practical Example: Adding a New Representation
+These approaches mirror concepts in modern programming:
+- Type hierarchies are like **inheritance** in OOP
+- Coercion is like **type casting** in languages like Python (`int(3.14)`)
+- Modern typed languages use both approaches to handle mixed types
 
-To add a new representation (e.g., exponential form), we simply register new procedures:
-
-```python
-# Adding a new representation is this easy:
-operation_table.put('real-part', 'exponential', real_part_exponential)
-operation_table.put('imag-part', 'exponential', imag_part_exponential)
-operation_table.put('magnitude', 'exponential', magnitude_exponential)
-operation_table.put('angle', 'exponential', angle_exponential)
-```
-
-No other code needs to change!
-
-This pattern shows how careful system design can make code more flexible, maintainable, and extensible - key qualities of good software architecture.
+The deep insight is that **type systems** are not rigid rules but flexible tools we design to model our problem domain. This modern implementation shows how these concepts evolve while maintaining their fundamental principles.
 
 
 ---
@@ -1315,6 +1310,37 @@ When operating on mixed types, we **raise** (convert) the lower-type object to m
         (else
          (add (raise x) y))))
 ```
+
+#### **Key Takeaways: Type Hierarchies vs. Coercion**
+
+The type hierarchy approach, while elegant, has several limitations:
+
+1. **Rigidity and Inflexibility**
+   - Assumes a single path of conversion between types
+   - Doesn't handle multiple valid conversion paths
+   - Example: Integer → Complex could go through Rational or directly
+
+2. **Information Loss**
+   - Raising types through hierarchy can lose precision
+   - Converting Rational to Real might lose exact rational representation
+   - Can lead to numerical instability in calculations
+
+3. **Incomplete Coverage**
+   - Not all type conversions fit a hierarchical model
+   - Some conversions are bidirectional or have special cases
+   - Tower model doesn't handle complex relationships well
+
+4. **Extensibility Challenges**
+   - Adding new types requires modifying the entire hierarchy
+   - Each new type needs correct placement in the hierarchy
+   - Makes system harder to extend
+
+5. **Ambiguous Conversions**
+   - Multiple arguments of different types create unclear conversion paths
+   - Hierarchy doesn't provide clear resolution strategy
+
+This is why the coercion approach is often more practical. The coercion approach better aligns with modern programming languages, where conversions are explicit and customizable based on application needs.
+
 
 #### **2. Coercion**
 
@@ -1349,12 +1375,138 @@ Instead of raising through a hierarchy, we define specific procedures to convert
                      (list op type-tags)))))))
 ```
 
+#### **Modern Python Implementation of Coercion**
+
+Let's see how this concept translates to modern Python, where we can implement a flexible type coercion system using decorators and a registry:
+
+```python
+from typing import Type, Dict, Callable, Any, TypeVar, Generic
+from dataclasses import dataclass
+from decimal import Decimal
+from fractions import Fraction
+
+# Type registry for coercion procedures
+class CoercionRegistry:
+    def __init__(self):
+        self._coercions: Dict[tuple[Type, Type], Callable] = {}
+    
+    def register(self, from_type: Type, to_type: Type):
+        """Decorator to register a coercion procedure."""
+        def decorator(func: Callable):
+            self._coercions[(from_type, to_type)] = func
+            return func
+        return decorator
+    
+    def get_coercion(self, from_type: Type, to_type: Type) -> Callable:
+        """Get the coercion procedure for converting from_type to to_type."""
+        return self._coercions.get((from_type, to_type))
+
+# Create a global registry
+registry = CoercionRegistry()
+
+# Example numeric types with coercion procedures
+@dataclass
+class Complex:
+    real: float
+    imag: float
+
+@registry.register(int, float)
+def int_to_float(x: int) -> float:
+    return float(x)
+
+@registry.register(float, Complex)
+def float_to_complex(x: float) -> Complex:
+    return Complex(x, 0.0)
+
+@registry.register(int, Complex)
+def int_to_complex(x: int) -> Complex:
+    return Complex(float(x), 0.0)
+
+class GenericOperation(Generic[T]):
+    """Generic operation that handles type coercion."""
+    
+    def __init__(self, operation: Callable[[Any, Any], Any]):
+        self.operation = operation
+    
+    def apply(self, *args: Any) -> Any:
+        """Apply the operation with automatic type coercion."""
+        if len(args) != 2:
+            raise ValueError("Operation requires exactly 2 arguments")
+        
+        a, b = args
+        a_type, b_type = type(a), type(b)
+        
+        # If types match, apply operation directly
+        if a_type == b_type:
+            return self.operation(a, b)
+        
+        # Try to coerce first argument
+        coercion = registry.get_coercion(a_type, b_type)
+        if coercion:
+            return self.operation(coercion(a), b)
+        
+        # Try to coerce second argument
+        coercion = registry.get_coercion(b_type, a_type)
+        if coercion:
+            return self.operation(a, coercion(b))
+        
+        raise TypeError(f"No coercion path between {a_type} and {b_type}")
+
+# Example usage
+add = GenericOperation(lambda x, y: x + y)
+
+# These will work with automatic coercion
+result1 = add.apply(5, 3.14)        # int + float
+result2 = add.apply(3.14, Complex(1, 2))  # float + Complex
+result3 = add.apply(42, Complex(1, 2))     # int + Complex
+
+print(f"5 + 3.14 = {result1}")
+print(f"3.14 + (1+2i) = {result2}")
+print(f"42 + (1+2i) = {result3}")
+```
+
+This modern implementation offers several advantages:
+
+1. **Type Safety**
+   - Uses Python's type hints for better static type checking
+   - Makes coercion paths explicit and verifiable
+   - Helps catch type-related errors at compile time
+
+2. **Flexibility**
+   - Easy to add new types and coercion procedures
+   - Supports multiple coercion paths
+   - Can handle complex type relationships
+
+3. **Extensibility**
+   - New operations can be added without modifying existing code
+   - Coercion procedures can be registered at runtime
+   - Supports custom type hierarchies
+
+4. **Maintainability**
+   - Clear separation of concerns
+   - Each coercion procedure is self-contained
+   - Easy to test and debug
+
+5. **Performance**
+   - Coercion procedures are cached in the registry
+   - No need to traverse a type hierarchy
+   - Direct lookup of coercion procedures
+
+This pattern is particularly useful in:
+- Scientific computing libraries (NumPy, SciPy)
+- Financial applications (handling different numeric types)
+- Data processing pipelines (type conversion between stages)
+- API integrations (converting between different data formats)
+
+The key insight remains the same as in SICP: type systems are not rigid rules but flexible tools we design to model our problem domain. This modern implementation shows how these concepts evolve while maintaining their fundamental principles.
+
 These approaches mirror concepts in modern programming:
 - Type hierarchies are like **inheritance** in OOP
 - Coercion is like **type casting** in languages like Python (`int(3.14)`)
 - Modern typed languages use both approaches to handle mixed types
 
-The deep insight is that **type systems** are not rigid rules imposed by the language, but flexible tools we design to model our problem domain.
+The deep insight is that **type systems** are not rigid rules but flexible tools we design to model our problem domain. This modern implementation shows how these concepts evolve while maintaining their fundamental principles.
+
 
 ---
 
