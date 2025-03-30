@@ -11,7 +11,7 @@ comments: false
 
 # Vibe Coding and the Ceiling No One's Talking About
 
-![graph-diminishing-returns.gif](/assets/graph-diminishing-returns.gif)
+![graph-diminishing-returns]({{ site.baseurl }}/assets/graph-diminishing-returns.gif)
 
 ## Chamath's Take Was Bold. I Had to Answer.
 
@@ -75,7 +75,7 @@ You spend a lot of time unraveling what AI wrote, like a lot...
 
 ## The Double-Edged Sword of Diminishing Returns
 
-![Law_of_diminishing_returns_revised](/assets/Law_of_diminishing_returns_revised.avif)
+![Law_of_diminishing_returns_revised]({{ site.baseurl }}/assets/Law_of_diminishing_returns_revised.avif)
 
 ### 1. The Vibe-coder Development Paradox
 
@@ -115,7 +115,7 @@ You still need software engineers. Not just prompt writers.
 
 ### 3. The LLM Capability Plateau
 
-![LLMs-coding_capabilities](/assets/LLMs-coding_capabilities.jpeg)
+![LLMs-coding_capabilities]({{ site.baseurl }}/assets/LLMs-coding_capabilities.jpeg)
 
 People look at these GPT Elo charts and think: "The machines are here. They're better than us." While the AI industry touts exponential improvements in LLM capabilities, the reality for end users tells a different story:
 
@@ -193,7 +193,7 @@ You need to **get past vibes and into architecture**.
 
 Exactly what i am doing after hitting the vibe-coder ceiling
 
-![vibe-coding-ceiling](/assets/vibe-coding-ceiling.png)
+![vibe-coding-ceiling]({{ site.baseurl }}/assets/vibe-coding-ceiling.png)
 
 
 ---
@@ -227,5 +227,5 @@ Because the last 20% of engineering?
 
 That's where the magic lives.
 
-![graph-diminishing-returns.gif](/assets/graph-diminishing-returns.gif)
+![graph-diminishing-returns]({{ site.baseurl }}/assets/graph-diminishing-returns.gif)
 
