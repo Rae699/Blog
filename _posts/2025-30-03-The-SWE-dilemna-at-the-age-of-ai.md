@@ -11,7 +11,7 @@ comments: false
 
 # Vibe Coding and the Ceiling No One's Talking About
 
-![graph-diminishing-returns]({{ site.baseurl }}/assets/graph-diminishing-returns.gif)
+![Law_of_diminishing_returns_revised]({{ site.baseurl }}/assets/Law_of_diminishing_returns_revised.avif)
 
 ## Chamath's Take Was Bold. I Had to Answer.
 
@@ -75,7 +75,7 @@ You spend a lot of time unraveling what AI wrote, like a lot...
 
 ## The Double-Edged Sword of Diminishing Returns
 
-![Law_of_diminishing_returns_revised]({{ site.baseurl }}/assets/Law_of_diminishing_returns_revised.avif)
+![graph-diminishing-returns]({{ site.baseurl }}/assets/graph-diminishing-returns.gif)
 
 ### 1. The Vibe-coder Development Paradox
 
@@ -119,9 +119,9 @@ You still need software engineers. Not just prompt writers.
 
 People look at these GPT Elo charts and think: "The machines are here. They're better than us." While the AI industry touts exponential improvements in LLM capabilities, the reality for end users tells a different story:
 
-- **The Marketing vs Reality Gap**: Despite claims of exponential growth, the incremental improvements in practical applications remain modest
-- **The Plateau Effect**: We're seeing diminishing returns in real-world performance improvements, my opinion comes from hands-on experience
-- **The Cost-Performance Trade-off**: Each marginal improvement requires exponentially more computational resources and training data
+- **The Marketing vs Reality Gap**: Despite claims of exponential growth, the incremental improvements in practical applications remain modest.
+- **The Plateau Effect**: We're seeing diminishing returns in real-world performance improvements, this my personal opinion that comes from hands-on experience.
+- **The Cost-Performance Trade-off**: Each marginal improvement requires exponentially more computational resources and training data.
 
 > My main take is simple: **LLMs simulate IQ. They don't possess it.**
 
@@ -208,7 +208,7 @@ So here's what I believe:
 
 - Vibe coding works best at the **beginning**.
 - Engineers are more important than ever.
-- LLMs are expanding access, not replacing expertise.
+- **LLMs are expanding access, not replacing expertise.****
 - You must treat AI as **a collaborator**, not a contractor.
 
 We're not in the "AI is eating your job" phase.
@@ -226,6 +226,3 @@ Let's keep our hands on the keyboard.
 Because the last 20% of engineering?
 
 That's where the magic lives.
-
-![graph-diminishing-returns]({{ site.baseurl }}/assets/graph-diminishing-returns.gif)
-
