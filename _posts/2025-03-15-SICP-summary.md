@@ -182,6 +182,14 @@ A **quadratic** algorithm will always outgrow a **linear** one—even if the lin
 - A function's order of growth is determined by its dominant term (e.g., in \( 5n^2 + 3n + 1000 \), the \( n^2 \) term dominates for large \( n \)).  
 - No matter how large a constant is, a faster-growing function will eventually outgrow a slower-growing one.  
 
+| Category | Theta Notation | Growth Description | Example |
+|----------|---------------|-------------------|----------|
+| Constant | \(\Theta(1)\) | Growth is independent of the input | `abs` |
+| Logarithmic | \(\Theta(\log n)\) | Multiplying input increments resources | `fast_exp` |
+| Linear | \(\Theta(n)\) | Incrementing input increments resources | `exp` |
+| Quadratic | \(\Theta(n^2)\) | Incrementing input adds n resources | `one_more` |
+| Exponential | \(\Theta(b^n)\) | Incrementing input multiplies resources | `fib` |
+
 To visualize this, let's look at an example.  
 
 #### **Visualizing Growth Rates**  
@@ -287,7 +295,10 @@ While complexity theory tells us that constants don't matter *asymptotically*, i
 - However, when input sizes grow large enough, **only the order of growth matters**. A well-optimized \( O(n^2) \) algorithm will eventually lose to even a poorly optimized \( O(n \log n) \) algorithm.  
 
 
+
+
 ---
+
 
 ### **Understanding Higher-Order and Lower-Order Functions**
 
